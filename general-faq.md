@@ -76,11 +76,9 @@ Need help unrelated to a specific example? Open a GitHub issue in
 
 ##### Submit ideas or offer feedback
 
-If you're using a kickstart and want to see changes, create a GitHub
-issue with your request. We'll see if we can make it happen.
-
 All feedback is welcome. Specific and actionable feedback is preferred. Please
-create a GitHub issue directly in the kickstart repository.
+create a GitHub issue directly in the kickstart repository. We'll see if we can
+make it happen.
 
 For general feedback, please create an 
 [issue in ai-kickstart-contrib](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues)
