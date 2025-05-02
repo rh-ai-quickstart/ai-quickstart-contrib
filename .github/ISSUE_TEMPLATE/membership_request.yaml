@@ -1,0 +1,19 @@
+name: Membership request
+description: Request membership status to AI kickstart organization 
+title: "[Membership request]: "
+labels: ["kind/membership_request", "unreviewed"]
+body: 
+  - type: markdown 
+    attributes: 
+      value: | 
+        Thank you for your interest in AI kickstarts! Please use this form to request membership to our GitHub Organization. 
+  - type: textbox 
+    attributes: 
+      label: GitHub username
+      description: Enter your github username
+    validations: 
+      required: true 
+  - type: textarea
+    attributes: 
+      label: Request 
+      description: Use this box to request membership. Please include ways to verify your identity.
