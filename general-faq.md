@@ -3,6 +3,7 @@
 **Table of contents** 
 
 * [What is a kickstart again?](#what-is-a-kickstart-again)
+* [Where can I find kickstarts?](#where-can-i-find-kickstarts)
 * [Are there requirements](#are-there-requirements)
 * [What if I don't have Red Hat AI yet?](#what-if-i-dont-have-red-hat-ai-yet)
 * [Will kickstarts run in my environment? Are these maintained? Are they products?](#will-kickstarts-run-in-my-environment-are-these-maintained-are-they-products)
@@ -19,6 +20,13 @@
 Kickstarts are simple, ready-to-use AI examples using Red Hat platforms. 
 They are straightforward and focused example use cases - easy to launch, easy to
 get, and *ready to go!*
+
+### Where can I find kickstarts? 
+
+AI kickstarts are collected here in the 
+[AI kickstarts GitHub Organization](https://github.com/rh-ai-kickstart). 
+Each repository is a kickstart making it easy for you to `git clone` and get
+starterd right away. 
 
 ### Are there requirements? 
 
