@@ -7,7 +7,6 @@
 * [Is there a template repository?](#is-there-a-template-repository)
 * [How do I create a new kickstart?](#how-do-i-create-a-new-kickstart)
 * [What is the ai-kickstart-contrib repository?](#what-is-the-ai-kickstart-contrib-repository)
-* [What is the ai-kickstart-template repository?](#what-is-the-ai-kickstart-template-repository)
 
 ## Frequently asked questions :question: 
 
@@ -61,24 +60,24 @@ The `ai-kickstart-template` repository will prepopulate your repository with:
 
 ### How do I create a new kickstart? 
 
-1. Click "Repositories" in the [AI kickstart
+#### 1. Click "Repositories" in the [AI kickstart
 org](https://github.com/rh-ai-kickstart)
 
-![ai-kickstart-repos.png](assets/images/ai-kickstart-repos.png)
+![rh-ai-kickstart-repos.png](assets/images/rh-ai-kickstart-repos.png)
 
-2. Click "New repository" (top right) 
+#### 2. Click "New repository" (top right) 
 
 ![rh-ai-kickstart-new-repo.png](assets/images/rh-ai-kickstart-new-repo.png)
 
-3. Click "No template" and select `rh-ai-kickstart/ai-kickstart-template`
+#### 3. Click "No template" and select `rh-ai-kickstart/ai-kickstart-template`
 
 ![rh-ai-kickstart-template.png](assets/images/rh-ai-kickstart-template.png)
 
-4. Give your repository a name, make it Public and "Create repository"  
+#### 4. Give your repository a name, make it Public and "Create repository"  
 
-5. Build! :rocket:
+#### 5. Build! :rocket:
 
-6. **P.S.** Remember to update *placeholder* text in the template README
+#### 6. **P.S.** Remember to update *placeholder* text in the template README
 
 ### What is the ai-kickstart-contrib repository? 
 
