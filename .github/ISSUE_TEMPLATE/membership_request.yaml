@@ -1,7 +1,10 @@
 name: Membership request
 description: Request membership status to AI kickstart organization 
 title: "[Membership request]: "
-labels: ["kind/membership_request", "unreviewed"]
+labels: 
+  - membership_request
+  - unreviewed
+  - task
 body: 
   - type: markdown 
     attributes: 
