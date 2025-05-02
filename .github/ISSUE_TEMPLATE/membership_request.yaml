@@ -4,7 +4,8 @@ title: "[Membership request]: "
 labels: 
   - membership_request
   - unreviewed
-  - task
+assignees: 
+  - keklundrh
 body: 
   - type: markdown 
     attributes: 
