@@ -1,0 +1,31 @@
+name: Kickstart request
+description: Propose a new kickstart. No promises, but we might just build it!
+title: "[Kickstart request]: "
+labels: 
+  - kickstart_request
+  - unreviewed
+assignees: 
+  - keklundrh
+body: 
+  - type: markdown 
+    attributes: 
+      value: | 
+        Please use this form to submit your idea for a future AI kickstart! 
+  - type: textarea
+    attributes: 
+      label: Kickstart request
+      description: Please describe your vision for a kickstart in as much detail as possible.
+      value: | 
+        **Please describe your vision for a new kickstart** 
+        What would you like to see? 
+
+        **Is your request related to a specific use case? Please describe.**
+        A clear description of what the kickstart demonstrates and its value.
+
+        **Describe the solution you'd like to see**
+        A clear description of what you want to happen, or how you'd build it.
+
+        **Additional context**
+        Add any other context or screenshots about the request here. 
+    validations: 
+      required: true 
