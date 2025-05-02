@@ -7,7 +7,7 @@ body:
     attributes: 
       value: | 
         Thank you for your interest in AI kickstarts! Please use this form to request membership to our GitHub Organization. 
-  - type: textbox 
+  - type: textarea
     attributes: 
       label: GitHub username
       description: Enter your github username
