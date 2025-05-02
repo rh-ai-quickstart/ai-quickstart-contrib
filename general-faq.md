@@ -94,7 +94,7 @@ For general feedback, please create an
 ##### Add a kickstart! 
 
 Anyone can contribute a kickstart! :smile: 
-Please use the [contributor's guide](contribute-faq.md) to get started. 
+Please use the [contributor's guide](CONTRIBUTING.md) to get started. 
 
 ### Now what? 
 

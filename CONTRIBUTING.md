@@ -77,7 +77,15 @@ org](https://github.com/rh-ai-kickstart)
 
 #### 5. Build! :rocket:
 
-#### 6. **P.S.** Remember to update *placeholder* text in the template README
+#### 6. P.S. Remember to update *placeholder* text in the template README
 
 ### What is the ai-kickstart-contrib repository? 
+
+This is where:
+
+* general management of AI kickstarts happens
+* general issues are submitted 
+* membership requests are made
+* discussions, or  
+* planning happens
 
