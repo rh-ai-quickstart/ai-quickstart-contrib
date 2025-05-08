@@ -8,9 +8,7 @@
 * [How do I create a new kickstart?](#how-do-i-create-a-new-kickstart)
 * [What is the ai-kickstart-contrib repository?](#what-is-the-ai-kickstart-contrib-repository)
 
-## Frequently asked questions :question: 
-
-### How are AI kickstarts organized? 
+## How are AI kickstarts organized? 
 
 Every AI kickstart is its own repository. We do this so they are easy to browse,
 clone and deploy! AI kickstarts are collected here in the 
@@ -30,7 +28,7 @@ rh-ai-kickstart/
     └── vllm-tool-calling/
 ```
 
-### What are the repository requirements? 
+## What are the repository requirements? 
 
 Firstly, they are evolving. Please be patient :smile: ! 
 
@@ -48,7 +46,7 @@ and
 [redhat.com](https://redhat.com) (**future, TBD**). 
 * GitHub Actions automate extraction so resources should be organized consistently
 
-### Is there a template repository? 
+## Is there a template repository? 
 
 Yes. We got you! 
 
@@ -58,28 +56,28 @@ The `ai-kickstart-template` repository will prepopulate your repository with:
 * `assets/images/` folder to store images supporting your README
 * `.github/workflows/` GH Actions to manually submit a PR for publication
 
-### How do I create a new kickstart? 
+## How do I create a new kickstart? 
 
-#### 1. Click "Repositories" in the [AI kickstart
+### 1. Click "Repositories" in the [AI kickstart
 org](https://github.com/rh-ai-kickstart)
 
 ![rh-ai-kickstart-repos.png](assets/images/rh-ai-kickstart-repos.png)
 
-#### 2. Click "New repository" (top right) 
+### 2. Click "New repository" (top right) 
 
 ![rh-ai-kickstart-new-repo.png](assets/images/rh-ai-kickstart-new-repo.png)
 
-#### 3. Click "No template" and select `rh-ai-kickstart/ai-kickstart-template`
+### 3. Click "No template" and select `rh-ai-kickstart/ai-kickstart-template`
 
 ![rh-ai-kickstart-template.png](assets/images/rh-ai-kickstart-template.png)
 
-#### 4. Give your repository a name, make it Public and "Create repository"  
+### 4. Give your repository a name, make it Public and "Create repository"  
 
-#### 5. Build! :rocket:
+### 5. Build! :rocket:
 
-#### 6. P.S. Remember to update *placeholder* text in the template README
+### 6. P.S. Remember to update *placeholder* text in the template README
 
-### What is the ai-kickstart-contrib repository? 
+## What is the ai-kickstart-contrib repository? 
 
 This is where:
 
