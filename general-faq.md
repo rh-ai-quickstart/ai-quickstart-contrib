@@ -29,7 +29,9 @@ get, and *ready to go!*
 
 AI kickstarts are collected here in the 
 [AI kickstarts GitHub Organization](https://github.com/rh-ai-kickstart). 
-Each repository is a kickstart making it easy for you to get started.
+Each 
+[repository](https://github.com/orgs/rh-ai-kickstart/repositories)
+ is a kickstart making it easy for you to get started.
 
 ## Are there requirements? 
 
