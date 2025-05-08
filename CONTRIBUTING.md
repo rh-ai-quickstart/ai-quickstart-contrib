@@ -1,6 +1,8 @@
 # Welcome to the contributor's guide (FAQ)! :computer: 
 
-**Table of contents** 
+Here you'll find details on how to contribute AI kickstarts!
+
+## Table of contents
 
 * [How are AI kickstarts organized?](#how-are-ai-kickstarts-organized)
 * [ What are the repository requirements?](#what-are-the-repository-requirements)

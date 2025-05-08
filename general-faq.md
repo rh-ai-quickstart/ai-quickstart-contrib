@@ -1,5 +1,11 @@
 # Welcome to the general FAQ! :rocket:
 
+Here you will find essential information on AI kickstarts. 
+
+Looking for something else? Try these: 
+* [The *complete* user guide](user-guide.md)
+* [Contributor's guide to AI kickstarts](CONTRIBUTING.md)
+
 ## Table of contents 
 
 * [What is a kickstart again?](#what-is-a-kickstart-again)
@@ -70,7 +76,11 @@ README, and follow the installation instructions.
 
 ### Get help 
 
-Have questions? Need help? We got you. Just open a GitHub issue in the relevant
+Not finding what you're looking for? Try the 
+[user guide](user-guide.md)
+first! :closed_book:
+
+Still have questions? Need help? We got you. Just open a GitHub issue in the relevant
 kickstart repository!
 
 Need help unrelated to a specific example? Open a GitHub issue in 
