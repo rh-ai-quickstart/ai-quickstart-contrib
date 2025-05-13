@@ -5,9 +5,12 @@ Here you'll find details on how to contribute AI kickstarts!
 ## Table of contents
 
 * [How are AI kickstarts organized?](#how-are-ai-kickstarts-organized)
-* [ What are the repository requirements?](#what-are-the-repository-requirements)
+* [What are the repository requirements?](#what-are-the-repository-requirements)
 * [Is there a template repository?](#is-there-a-template-repository)
 * [How do I create a new kickstart?](#how-do-i-create-a-new-kickstart)
+* [Do I have to create an Arcade?](#do-i-have-to-create-an-arcade)
+* [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example) 
+* [How are kickstarts maintained?](#how-are-kickstarts-maintained)
 * [What is the ai-kickstart-contrib repository?](#what-is-the-ai-kickstart-contrib-repository)
 
 ## How are AI kickstarts organized? 
@@ -78,6 +81,33 @@ org](https://github.com/rh-ai-kickstart)
 ### 5. Build! :rocket:
 
 ### 6. P.S. Remember to update *placeholder* text in the template README
+
+## Do I have to create an Arcade? 
+
+You don't *have* to create an Arcade, but it is recommended. Remember: not all
+users will have immediate access to an environment when they find your 
+kickstart. Arcades let users experience the example even if they aren't ready 
+to deploy just yet. 
+
+Don't forget to include a link to the Arcade in your README file. And, if you 
+want to go the extra mile, you can export the Arcade as a video and embed it 
+in your README. 
+
+Red Hatters can get started by searching `"interactive experiences (Arcade)"` on
+the Source.
+
+## Can I deploy and share a working example? 
+
+Yes, the AI BU runs an OpenShift AI cluster for any Red Hatter to use. You can
+deploy your example and share it internally. Reach out using internal channels
+for help. 
+
+## How are kickstarts maintained? 
+
+AI kickstarts are maintained by their owner. Your kickstarts are maintained by
+you. We ask for prompt attention to known issues and requests. If necessary
+actions are not completed, we may pause the promotion of your AI kickstart on
+redhat.com. 
 
 ## What is the ai-kickstart-contrib repository? 
 
