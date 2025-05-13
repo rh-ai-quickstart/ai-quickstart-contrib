@@ -102,9 +102,9 @@ mind.
 The tools you need depend on the kickstart you want to deploy. Each kickstart
 will document the specific tools needed. 
 
-Consider installing these commonly used tools beforehand to save yourself time. 
+But, consider installing these commonly used tools beforehand to save yourself time. 
 
-| Tool | Description | Link to instructions | 
+| Useful Tool | Description | Link to instructions | 
 | --- | --- | --- | 
 | `git` | Easily clone (download) AI kickstarts before deployment | [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) | 
 | `oc` | Tool makes it easy to connect to OpenShift and deploy kickstarts | [OpenShift CLI (oc)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cli_tools/openshift-cli-oc#cli-getting-started) | 
