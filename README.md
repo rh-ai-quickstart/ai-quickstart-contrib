@@ -1,6 +1,6 @@
 # ai-kickstart-contrib
 
-This repository *is not* a kickstart! 
+:loudspeaker: This repository *is not* a kickstart! 
 
 This repository is community oriented. It is used for
 documentation, tracking and management of AI kickstarts. 

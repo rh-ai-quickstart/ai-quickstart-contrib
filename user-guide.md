@@ -31,9 +31,9 @@ stored as a repository in the
 Organizing kickstarts this way makes them easier to maintain long term. 
 
 Every repository is an AI kickstart with a few notable exceptions: 
-* [The `.github` repository](https://github.com/rh-ai-kickstart/.github)
-* [`ai-kickstart-template`](https://github.com/rh-ai-kickstart/ai-kickstart-template)
-* [`ai-kickstart-contrib`](https://github.com/rh-ai-kickstart/ai-kickstart-contrib)
+* [The .github repository](https://github.com/rh-ai-kickstart/.github)
+* [ai-kickstart-template](https://github.com/rh-ai-kickstart/ai-kickstart-template)
+* [ai-kickstart-contrib](https://github.com/rh-ai-kickstart/ai-kickstart-contrib)
 
 **.github** is the landing page for the AI kickstart Organization. You can
 safely ignore it.
@@ -60,9 +60,26 @@ For general feedback, please create an
 * General feedback
 
 If you're **ever unsure** where to submit a request, just submit an "issue" in the 
-[`ai-kickstart-contrib` repository](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues).
+[ai-kickstart-contrib repository](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues).
 
+Here's how to submit a general request. 
 
+#### 1. Navigate to
+[ai-kickstart-contrib](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/tree/main)
+
+#### 2. Select "Issues" 
+
+Or, [go straight there](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues)
+
+#### 3. Click the green "New issue" button, top right 
+
+![rh-ai-kickstart-contrib-issues.png](assets/images/rh-ai-kickstart-contrib-issues.png)
+
+#### 4. Pick an appropriate issue type 
+
+![rh-ai-kickstart-contrib-new-issue.png](assets/images/rh-ai-kickstart-contrib-new-issue.png)
+
+You can use "Blank issue
 
 DRAFT outline - things to document, but haven't yet - 
 GENERAL 
