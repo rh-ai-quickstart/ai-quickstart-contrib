@@ -39,6 +39,7 @@ Firstly, they are evolving. Please be patient :smile: !
 
 Here are the repository requirements: 
 
+* Descriptive naming scheme makes your kickstart easy to find and understand  
 * `README.md` 
 * `assets/images`  
 * Put the images your README uses in the `assets/images/` folder
