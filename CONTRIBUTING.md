@@ -88,7 +88,7 @@ org](https://github.com/rh-ai-kickstart)
 
 2. Add a short description 
 
-![rh-ai-kickstart-repo-description.png](assets/images/rh-ai-kickstart-repo-descriptioin.png)
+![rh-ai-kickstart-repo-description.png](assets/images/rh-ai-kickstart-repo-description.png)
 
 
 ## Do I have to create an Arcade? 
