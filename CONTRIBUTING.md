@@ -83,8 +83,11 @@ org](https://github.com/rh-ai-kickstart)
 ### 7. P.P.S Remember to add a description to your repo 
 
 1. Click the gear icon in the top right of your repository
+
 ![rh-ai-kickstart-repo-gear.png](assets/images/rh-ai-kickstart-repo-gear.png)
+
 2. Add a short description 
+
 ![rh-ai-kickstart-repo-description.png](assets/images/rh-ai-kickstart-repo-descriptioin.png)
 
 
