@@ -61,7 +61,7 @@ For general feedback, please create an
 [issue in ai-kickstart-contrib](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues)
 . General requests may resemble: 
 * General help requests 
-* Requests for new AI kickstarts 
+* Suggesting a new AI kickstarts 
 * General feedback
 
 If you're **ever unsure** where to submit a request, just submit an "issue" in the 
@@ -84,7 +84,7 @@ Or, [go straight there](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/
 
 ![rh-ai-kickstart-contrib-new-issue.png](assets/images/rh-ai-kickstart-contrib-new-issue.png)
 
-**Kickstart request** can be used to suggest a new kickstart. Please note, all
+**Kickstart suggestion** can be used to suggest a new kickstart. Please note, all
 suggestions are welcome but there are no guarantees we'll be able to build it! 
 
 Please use **Membership request** to request official membership to the AI
@@ -121,8 +121,55 @@ Remember, create an
  if you would like help or updates to this documentation. 
 
 
-###  
+### Deploy your first kickstart! :rocket: 
 
+Launch a private chatbot using the 
+[vLLM-cpu kickstart](https://github.com/rh-ai-kickstart/vllm-cpu). 
+
+**Here's what you'll need to do:**
+1. Read through the README
+2. Follow directions in the "Install" section 
+3. Launch the chatbot
+
+*Simple & ready to go!* 
+
+
+Here are detailed instructions to get started:
+
+#### 0. Prerequisistes
+
+Install oc & helm
+
+Log in to your cluster 
+
+Or, use web terminal 
+
+#### 1. Naviate to the vLLM CPU kickstart
+
+From the 
+[AI kickstart organization page](https://github.com/rh-ai-kickstart)
+, click repositories, and vLLM-CPU. 
+
+![rh-ai-kickstart-repos-vllm-cpu.png](assets/images/rh-ai-kickstart-repos-vllm-cpu.png)
+
+Or, go straight to the 
+[vLLM-CPU repository](https://github.com/rh-ai-kickstart/vllm-cpu)
+.
+
+
+
+ 
+
+
+
+
+#### Github 
+
+
+
+#### [redhat.com](https://redhat.com) 
+
+*Coming soon.*
 
 DRAFT outline - things to document, but haven't yet - 
 GENERAL 

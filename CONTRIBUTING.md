@@ -35,13 +35,10 @@ rh-ai-kickstart/
 
 ## What are the repository requirements? 
 
-Firstly, they are evolving. Please be patient :smile: ! 
 
-Here are the repository requirements: 
-
-* Descriptive naming scheme makes your kickstart easy to find and understand  
+* A descriptive repo name makes your kickstart easy to find and understand 
+* Include a description for your repository
 * `README.md` 
-* `assets/images`  
 * Put the images your README uses in the `assets/images/` folder
 
 Here's why: 
@@ -82,6 +79,14 @@ org](https://github.com/rh-ai-kickstart)
 ### 5. Build! :rocket:
 
 ### 6. P.S. Remember to update *placeholder* text in the template README
+
+### 7. P.P.S Remember to add a description to your repo 
+
+1. Click the gear icon in the top right of your repository
+![rh-ai-kickstart-repo-gear.png](assets/images/rh-ai-kickstart-repo-gear.png)
+2. Add a short description 
+![rh-ai-kickstart-repo-description.png](assets/images/rh-ai-kickstart-repo-descriptioin.png)
+
 
 ## Do I have to create an Arcade? 
 
