@@ -109,15 +109,15 @@ the Source.
 ## How to publish and promote your kickstart?
 
 Your AI kickstart is discoverable once you push commits to 
-[github.com/rh-ai-kickstart](github.com/rh-ai-kickstart). 
+[github.com/rh-ai-kickstart](https://github.com/rh-ai-kickstart). 
 While many users will browse GitHub, we will curate an AI kickstart catalog on 
 redhat.com (TBD). 
 
-In the meantime, we will use the renowned [ai-on-openshift.io](ai-on-openshift.io)
+In the meantime, we will use the renowned [ai-on-openshift.io](https://ai-on-openshift.io)
 site for promotion and cataloging. 
 
 Here's how it works: 
-* [ai-on-openshift.io](ai-on-openshift.io) is built using GH Actions and mkdocs
+* [ai-on-openshift.io](https://ai-on-openshift.io) is built using GH Actions and mkdocs
 * We use `git submodule` to drop kickstarts in appropriate locations 
 * mkdocs picks up your README converting to html (this is why READMEs are so important)
 * GH Actions will pull your latest changes even though the submodule in main isn't updated
