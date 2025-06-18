@@ -9,6 +9,7 @@ Here you'll find details on how to contribute AI kickstarts!
 * [Is there a template repository?](#is-there-a-template-repository)
 * [How do I create a new kickstart?](#how-do-i-create-a-new-kickstart)
 * [Do I have to create an Arcade?](#do-i-have-to-create-an-arcade)
+* [How to publish and promote your kickstart?](#how-to-publish-and-promote-your-kickstart)
 * [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example) 
 * [How are kickstarts maintained?](#how-are-kickstarts-maintained)
 * [What is the ai-kickstart-contrib repository?](#what-is-the-ai-kickstart-contrib-repository)
@@ -46,8 +47,9 @@ Here's why:
 * READMEs are extracted and used for promotion on
 [ai-on-openshift.io](https://ai-on-openshift.io/) 
 and 
-[redhat.com](https://redhat.com) (**future, TBD**). 
+[redhat.com](https://redhat.com) (**future, TBD**).
 * GitHub Actions automate extraction so resources should be organized consistently
+* See [How to publish and promote your kickstart?](#how-to-publish-and-promote-your-kickstart) for more information
 
 ## Is there a template repository? 
 
@@ -61,8 +63,7 @@ The `ai-kickstart-template` repository will prepopulate your repository with:
 
 ## How do I create a new kickstart? 
 
-### 1. Click "Repositories" in the [AI kickstart
-org](https://github.com/rh-ai-kickstart)
+### 1. Click "Repositories" in the [AI kickstart org](https://github.com/rh-ai-kickstart)
 
 ![rh-ai-kickstart-repos.png](assets/images/rh-ai-kickstart-repos.png)
 
@@ -104,6 +105,27 @@ in your README.
 
 Red Hatters can get started by searching `"interactive experiences (Arcade)"` on
 the Source.
+
+## How to publish and promote your kickstart?
+
+Your AI kickstart is discoverable once you push commits to 
+[github.com/rh-ai-kickstart](github.com/rh-ai-kickstart). 
+While many users will browse GitHub, we will curate an AI kickstart catalog on 
+redhat.com (TBD). 
+
+In the meantime, we will use the renowned [ai-on-openshift.io](ai-on-openshift.io)
+site for promotion and cataloging. 
+
+Here's how it works: 
+* [ai-on-openshift.io](ai-on-openshift.io) is built using GH Actions and mkdocs
+* We use `git submodule` to drop kickstarts in appropriate locations 
+* mkdocs picks up your README converting to html (this is why READMEs are so important)
+* GH Actions will pull your latest changes even though the submodule in main isn't updated
+
+There are 2 ways to list your kickstart: 
+1. Request publication using the issue template in the ai-on-openshift.io repository
+2. Be resonsive to GitHub issues and requests to promote from the AI BU 
+
 
 ## Can I deploy and share a working example? 
 
