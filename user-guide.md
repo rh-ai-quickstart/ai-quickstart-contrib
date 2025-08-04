@@ -10,7 +10,8 @@ instead.
 
 ## Table of contents
 * [General AI kickstart information](#general-ai-kickstart-information)
-
+* [Getting started](#getting-started)
+* [Getting help, submitting feedback and making requests](#getting-help-submitting-feedback-and-making-requests)
 
 ## General AI kickstart information 
 
@@ -37,22 +38,51 @@ stored as a repository in the
 Organizing kickstarts this way makes them easier to maintain long term. 
 
 Every repository is an AI kickstart with a few notable exceptions: 
-* [The .github repository](https://github.com/rh-ai-kickstart/.github)
-* [ai-kickstart-template](https://github.com/rh-ai-kickstart/ai-kickstart-template)
-* [ai-kickstart-contrib](https://github.com/rh-ai-kickstart/ai-kickstart-contrib)
+* [The .github repository](https://github.com/rh-ai-kickstart/.github) - is the landing page for AI kickstarts. You can safely ignore it.
+* [ai-kickstart-template](https://github.com/rh-ai-kickstart/ai-kickstart-template) - is a template repository for creators to get started easily.
+* [ai-kickstart-contrib](https://github.com/rh-ai-kickstart/ai-kickstart-contrib) - is where we document, manage projects and plans, and interact with the community through Github issues, for example. This is where you get help if you need it. 
 
-**.github** is the landing page for the AI kickstart Organization. You can
-safely ignore it.
 
-**ai-kickstart-template** is a template repository for creators to get started
-easily. It contains a sample README file, preferred directory structures and
-helper functions. 
+## Getting started
 
-**ai-kickstart-contrib** serves to document the project, manage projects and
-plans, and interact with the community through Github issues, for example. This
-is where you can get help, if you need it. More on that below. 
+### Deployment tool prerequisistes 
 
-### Getting help, submitting feedback and making requests 
+The tools you need depend on the kickstart you want to deploy. Each kickstart
+will document the specific tools needed. 
+
+But, consider installing these commonly used tools beforehand to save yourself time. 
+
+| Useful Tool | Description | Link to instructions | 
+| --- | --- | --- | 
+| `git` | Easily clone (download) AI kickstarts before deployment | [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) | 
+| `oc` | Tool makes it easy to connect to OpenShift and deploy kickstarts | [OpenShift CLI (oc)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cli_tools/openshift-cli-oc#cli-getting-started) | 
+| `helm` | Package manager for kubernetes | [Helm CLI](https://docs.redhat.com/en/documentation/openshift_container_platform/4.3/html/cli_tools/helm-cli#getting-started-with-helm-on-openshift-container-platform)  | 
+| `make` | Automates builds and tasks | Included in \*nix environments use package managers or trusted installation instructions for Windows environments | 
+
+These tools are useful to have especially when you're deploying from a local
+terminal. Alternatively, your cluster administrator could install the 
+[OpenShift Web Terminal operator (4.16)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/web_console/web-terminal#installing-web-terminal)
+to deploy examples directly from OpenShift. 
+
+Remember, create an 
+[issue](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues)
+ if you would like help or updates to this documentation. 
+
+
+### Deploy your first kickstart! :rocket: 
+
+Launch a private chatbot using the 
+[LLM CPU Serving kickstart](https://github.com/rh-ai-kickstart/llm-cpu-serving). 
+
+**Here's what you'll need to do:**
+1. Read through the [README](https://github.com/rh-ai-kickstart/llm-cpu-serving)
+2. Follow directions in the "[Install](https://github.com/rh-ai-kickstart/llm-cpu-serving?tab=readme-ov-file#install)" section 
+3. Launch the chatbot
+
+*Simple & ready to go!* 
+
+
+## Getting help, submitting feedback and making requests 
 
 All feedback is welcome. Specific and actionable feedback is preferred. Please
 create a GitHub issue directly in the kickstart repository whenever possible.
@@ -94,109 +124,4 @@ repositories for others to use.
 Use "Blank issue" for all other requests, feedback or anything else on your
 mind. 
 
-
-## Getting started
-
-### Deployment tool prerequisistes 
-
-The tools you need depend on the kickstart you want to deploy. Each kickstart
-will document the specific tools needed. 
-
-But, consider installing these commonly used tools beforehand to save yourself time. 
-
-| Useful Tool | Description | Link to instructions | 
-| --- | --- | --- | 
-| `git` | Easily clone (download) AI kickstarts before deployment | [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) | 
-| `oc` | Tool makes it easy to connect to OpenShift and deploy kickstarts | [OpenShift CLI (oc)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cli_tools/openshift-cli-oc#cli-getting-started) | 
-| `helm` | Package manager for kubernetes | [Helm CLI](https://docs.redhat.com/en/documentation/openshift_container_platform/4.3/html/cli_tools/helm-cli#getting-started-with-helm-on-openshift-container-platform)  | 
-| `make` | Automates builds and tasks | Included in \*nix environments use package managers or trusted installation instructions for Windows environments | 
-
-These tools are useful to have especially when you're deploying from a local
-terminal. Alternatively, your cluster administrator could install the 
-[OpenShift Web Terminal operator (4.16)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/web_console/web-terminal#installing-web-terminal)
-to deploy examples directly from OpenShift. 
-
-Remember, create an 
-[issue](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues)
- if you would like help or updates to this documentation. 
-
-
-### Deploy your first kickstart! :rocket: 
-
-Launch a private chatbot using the 
-[vLLM-cpu kickstart](https://github.com/rh-ai-kickstart/vllm-cpu). 
-
-**Here's what you'll need to do:**
-1. Read through the README
-2. Follow directions in the "Install" section 
-3. Launch the chatbot
-
-*Simple & ready to go!* 
-
-
-Here are detailed instructions to get started:
-
-#### 0. Prerequisistes
-
-Install oc & helm
-
-Log in to your cluster 
-
-Or, use web terminal 
-
-#### 1. Naviate to the vLLM CPU kickstart
-
-From the 
-[AI kickstart organization page](https://github.com/rh-ai-kickstart)
-, click repositories, and vLLM-CPU. 
-
-![rh-ai-kickstart-repos-vllm-cpu.png](assets/images/rh-ai-kickstart-repos-vllm-cpu.png)
-
-Or, go straight to the 
-[vLLM-CPU repository](https://github.com/rh-ai-kickstart/vllm-cpu)
-.
-
-
-
- 
-
-
-
-
-#### Github 
-
-
-
-#### [redhat.com](https://redhat.com) 
-
-*Coming soon.*
-
-DRAFT outline - things to document, but haven't yet - 
-GENERAL 
-* what about LICENSE files
-* OK, now the how 
-* the README file tells you everything you need to know and how to install it
-* detail the recommended contents of the README files 
-	* Some come with arcades in case you just want to see the kickstart without installing or don't have RH AI 
-* requirements vary by use case, by contributor, by software version 
-* we will documentat what's required 
-* sometimes assumptions are made. If you have trouble with a kickstart, create a GH issue 
-* how can you install these 
-	* local machine with terminal 
-	* openshift web terminal
-* environments
-	* openshift
-	* openshift ai
-* if you don't have them you can always do the arcades
-* Let's install a simple example using: 
-	* local 
-		* open terminal
-		* you have oc already 
-		* log in 
-		* git clone vllm-cpu 
-		* helm install 
-	* openshift web terminal 
-		* click terminal 
-		* git clone
-		* helm install 
 
