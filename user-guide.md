@@ -99,12 +99,9 @@ If you're **ever unsure** where to submit a request, just submit an "issue" in t
 
 Here's how to submit a general request. 
 
-#### 1. Navigate to
-[ai-kickstart-contrib](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/tree/main)
+#### 1. Navigate to [ai-kickstart-contrib](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/tree/main)
 
-#### 2. Select "Issues" 
-
-Or, [go straight there](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues)
+#### 2. Select "[Issues](https://github.com/rh-ai-kickstart/ai-kickstart-contrib/issues)"
 
 #### 3. Click the green "New issue" button, top right 
 
