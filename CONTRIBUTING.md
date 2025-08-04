@@ -12,7 +12,6 @@ Here you'll find details on how to contribute AI kickstarts!
 * [How to publish and promote your kickstart?](#how-to-publish-and-promote-your-kickstart)
 * [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example) 
 * [How are kickstarts maintained?](#how-are-kickstarts-maintained)
-* [What is the ai-kickstart-contrib repository?](#what-is-the-ai-kickstart-contrib-repository)
 
 ## How are AI kickstarts organized? 
 
@@ -139,14 +138,4 @@ AI kickstarts are maintained by their owner. Your kickstarts are maintained by
 you. We ask for prompt attention to known issues and requests. If necessary
 actions are not completed, we may pause the promotion of your AI kickstart on
 redhat.com. 
-
-## What is the ai-kickstart-contrib repository? 
-
-This is where:
-
-* general management of AI kickstarts happens
-* general issues are submitted 
-* membership requests are made
-* discussions, or  
-* planning happens
 
