@@ -6,6 +6,7 @@ Here you'll find details on how to contribute AI kickstarts!
 
 * [How are AI kickstarts organized?](#how-are-ai-kickstarts-organized)
 * [What are the repository requirements?](#what-are-the-repository-requirements)
+* [What criteria are we using?](#what-criteria-are-we-using)
 * [Is there a template repository?](#is-there-a-template-repository)
 * [How do I create a new kickstart?](#how-do-i-create-a-new-kickstart)
 * [Do I have to create an Arcade?](#do-i-have-to-create-an-arcade)
@@ -35,20 +36,32 @@ rh-ai-kickstart/
 
 ## What are the repository requirements? 
 
+### Required
 
 * A descriptive repo name makes your kickstart easy to find and understand 
-* Include a description for your repository
-* `README.md` 
+* `README.md` - please use README structure found in [ai-kickstart-template](https://github.com/rh-ai-kickstart/ai-kickstart-template)
 * Put the images your README uses in the `assets/images/` folder
+* Be as descriptive as possible! REMEMBER: you aren't just documenting code, you're documenting the use case
+* Add a description to your repo's About section
 
-Here's why: 
+### Optional, but encouraged
+* Add "[tags](#tag-your-kickstart)" to the About section of your kickstart 
 
-* READMEs are extracted and used for promotion on
-[ai-on-openshift.io](https://ai-on-openshift.io/) 
-and 
-[redhat.com](https://redhat.com) (**future, TBD**).
-* GitHub Actions automate extraction so resources should be organized consistently
-* See [How to publish and promote your kickstart?](#how-to-publish-and-promote-your-kickstart) for more information
+## What criteria are we using? 
+
+Here are some examples of best practices and common pitfalls: 
+
+*Aim for*
+* deployable by a regular user with regular permissions
+* an appealing user interface 
+* conveys a use case from a specific industry problem solved using Red Hat AI 
+
+*Avoid* 
+* examples only deployable by cluster admins
+* focusing only on the technology, not the problem it solves - tell the story instead
+* examples that only deploy a single component without friendly UI or way to use it
+
+IMPORTANT: as mentioned in the [How to publish and promote your kickstart](#how-to-publish-and-promote-your-kickstart) section, select kickstarts will be featured on redhat.com. This curated set will be selected using this criteria to promote actionable use cases. Since they will be highly visable, we will highlight the most relevant examples that any one can try and tell a compelling story. 
 
 ## Is there a template repository? 
 
@@ -138,4 +151,23 @@ AI kickstarts are maintained by their owner. Your kickstarts are maintained by
 you. We ask for prompt attention to known issues and requests. If necessary
 actions are not completed, we may pause the promotion of your AI kickstart on
 redhat.com. 
+
+## Tag your kickstart
+
+Help us keep things organized by tagging your kickstart repo. 
+1. Go to your repository
+2. Click the gear in the Aboust section (top right)
+3. Add relevant topic information, i.e. RAG -> enter `RAG`, ai-agents -> `ai-agents`
+4. Include a tag for your team too, see [list of tags](#list-of-tags) below
+
+### List of tags
+* `rh-ai-bu`
+* `rh-ai-bu-cai`
+* `rh-ai-engineering`
+* `rh-ecosystem-engineering`
+* `rh-ai-ssa`
+* `rh-consulting`
+* `customer`
+* `partner`
+* `community`
 
