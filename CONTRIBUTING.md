@@ -61,6 +61,7 @@ Here are some examples of best practices and common pitfalls:
 * focusing only on the technology, not the problem it solves - tell the story instead
 * examples that only deploy a single component without friendly UI or way to use it
 
+IMPORTANT: as mentioned in the [How to publish and promote your kickstart](#how-to-publish-and-promote-your-kickstart) section, select kickstarts will be featured on redhat.com. This curated set will be selected using this criteria to promote actionable use cases. Since they will be highly visable, we will highlight the most relevant examples that any one can try and tell a compelling story. 
 
 ## Is there a template repository? 
 
@@ -160,13 +161,13 @@ Help us keep things organized by tagging your kickstart repo.
 4. Include a tag for your team too, see [list of tags](#list-of-tags) below
 
 ### List of tags
-* `ai-bu`
-* `ai-bu-cai`
-* `ai-engineering`
-* `ecosystem-engineering`
+* `rh-ai-bu`
+* `rh-ai-bu-cai`
+* `rh-ai-engineering`
+* `rh-ecosystem-engineering`
+* `rh-ai-ssa`
+* `rh-consulting`
 * `customer`
 * `partner`
-* `ai-ssa`
-* `consulting`
 * `community`
 
