@@ -156,7 +156,7 @@ redhat.com.
 
 Help us keep things organized by tagging your kickstart repo. 
 1. Go to your repository
-2. Click the gear in the Aboust section (top right)
+2. Click the gear in the About section (top right)
 3. Add relevant topic information, i.e. RAG -> enter `RAG`, ai-agents -> `ai-agents`
 4. Include a tag for your team too, see [list of tags](#list-of-tags) below
 
