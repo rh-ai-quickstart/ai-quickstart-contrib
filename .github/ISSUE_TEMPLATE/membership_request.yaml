@@ -1,5 +1,5 @@
 name: Membership request
-description: Request membership status to AI kickstart organization 
+description: Request membership status to AI quickstart organization 
 title: "[Membership request]: "
 labels: 
   - membership_request
@@ -10,7 +10,7 @@ body:
   - type: markdown 
     attributes: 
       value: | 
-        Thank you for your interest in AI kickstarts! Please use this form to request membership to our GitHub Organization. 
+        Thank you for your interest in AI quickstarts! Please use this form to request membership to our GitHub Organization. 
   - type: textarea
     attributes: 
       label: GitHub username
