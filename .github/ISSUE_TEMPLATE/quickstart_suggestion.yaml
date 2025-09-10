@@ -3,7 +3,6 @@ description: Propose a new quickstart. No promises, but we might just build it!
 title: "[Quickstart suggestion]: "
 labels: 
   - quickstart_suggestion
-  - unreviewed
 assignees: 
   - keklundrh
 body: 
