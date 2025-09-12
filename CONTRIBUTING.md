@@ -125,7 +125,7 @@ the Source.
 Your AI quickstart is discoverable once you push commits to 
 [github.com/rh-ai-quickstart](https://github.com/rh-ai-quickstart). 
 While many users will browse GitHub, we will curate an AI quickstart catalog on 
-redhat.com (TBD). 
+redhat.com. [PUBLISHING.md](PUBLISHING.md) describes our publication process. 
 
 In the meantime, we will use the renowned [ai-on-openshift.io](https://ai-on-openshift.io)
 site for promotion and cataloging. 
