@@ -7,9 +7,7 @@ Here you'll find details on how to contribute AI quickstarts!
 * [How are AI quickstarts organized?](#how-are-ai-quickstarts-organized)
 * [What are the repository requirements?](#what-are-the-repository-requirements)
 * [What criteria are we using?](#what-criteria-are-we-using)
-* [Is there a template repository?](#is-there-a-template-repository)
 * [How do I create a new quickstart?](#how-do-i-create-a-new-quickstart)
-* [Do I have to create an Arcade?](#do-i-have-to-create-an-arcade)
 * [How to publish and promote your quickstart?](#how-to-publish-and-promote-your-quickstart)
 * [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example) 
 * [How are quickstarts maintained?](#how-are-quickstarts-maintained)
@@ -63,37 +61,27 @@ Here are some examples of best practices and common pitfalls:
 
 IMPORTANT: as mentioned in the [How to publish and promote your quickstart](#how-to-publish-and-promote-your-quickstart) section, select quickstarts will be featured on redhat.com. This curated set will be selected using this criteria to promote actionable use cases. Since they will be highly visable, we will highlight the most relevant examples that any one can try and tell a compelling story. 
 
-## Is there a template repository? 
-
-Yes. We got you! 
-
-The `ai-quickstart-template` repository will prepopulate your repository with: 
- 
-* a README.md file - **NOTE** You'll want to replace the text! 
-* `assets/images/` folder to store images supporting your README
-* `.github/workflows/` GH Actions to manually submit a PR for publication
-
 ## How do I create a new quickstart? 
 
-### 1. Click "Repositories" in the [AI quickstart org](https://github.com/rh-ai-quickstart)
+**1. Click "Repositories" in the [AI quickstart org](https://github.com/rh-ai-quickstart)**
 
 ![rh-ai-quickstart-repos.png](assets/images/rh-ai-quickstart-repos.png)
 
-### 2. Click "New repository" (top right) 
+**2. Click "New repository" (top right)** 
 
 ![rh-ai-quickstart-new-repo.png](assets/images/rh-ai-quickstart-new-repo.png)
 
-### 3. Click "No template" and select `rh-ai-quickstart/ai-quickstart-template`
+**3. Click "No template" and select `rh-ai-quickstart/ai-quickstart-template`**
 
 ![rh-ai-quickstart-template.png](assets/images/rh-ai-quickstart-template.png)
 
-### 4. Give your repository a name, make it Public and "Create repository"  
+**4. Give your repository a name, make it Public and "Create repository" ** 
 
-### 5. Build! :rocket:
+**5. Build! :rocket:**
 
-### 6. P.S. Remember to update *placeholder* text in the template README
+**6. P.S. Remember to update *placeholder* text in the template README**
 
-### 7. P.P.S Remember to add a description to your repo 
+**7. P.P.S Remember to add a description to your repo **
 
 1. Click the gear icon in the top right of your repository
 
@@ -104,7 +92,18 @@ The `ai-quickstart-template` repository will prepopulate your repository with:
 ![rh-ai-quickstart-repo-description.png](assets/images/rh-ai-quickstart-repo-description.png)
 
 
-## Do I have to create an Arcade? 
+### Is there a template repository? 
+
+Yes. We got you! 
+
+The `ai-quickstart-template` repository will prepopulate your repository with: 
+ 
+* a README.md file - **NOTE** You'll want to replace the text! 
+* `assets/images/` folder to store images supporting your README
+* `.github/workflows/` GH Actions to manually submit a PR for publication
+
+
+### Do I have to create an Arcade? 
 
 You don't *have* to create an Arcade, but it is recommended. Remember: not all
 users will have immediate access to an environment when they find your 
