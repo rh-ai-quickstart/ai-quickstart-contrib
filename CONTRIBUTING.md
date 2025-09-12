@@ -6,7 +6,6 @@ Here you'll find details on how to contribute AI quickstarts!
 
 * [How are AI quickstarts organized?](#how-are-ai-quickstarts-organized)
 * [What are the repository requirements?](#what-are-the-repository-requirements)
-* [What criteria are we using?](#what-criteria-are-we-using)
 * [How do I create a new quickstart?](#how-do-i-create-a-new-quickstart)
 * [How to publish and promote your quickstart?](#how-to-publish-and-promote-your-quickstart)
 * [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example) 
@@ -42,10 +41,7 @@ rh-ai-quickstart/
 * Be as descriptive as possible! REMEMBER: you aren't just documenting code, you're documenting the use case
 * Add a description to your repo's About section
 
-### Optional, but encouraged
-* Add "[tags](#tag-your-quickstart)" to the About section of your quickstart 
-
-## What criteria are we using? 
+### What criteria are we using? 
 
 Here are some examples of best practices and common pitfalls: 
 
@@ -59,7 +55,14 @@ Here are some examples of best practices and common pitfalls:
 * focusing only on the technology, not the problem it solves - tell the story instead
 * examples that only deploy a single component without friendly UI or way to use it
 
-IMPORTANT: as mentioned in the [How to publish and promote your quickstart](#how-to-publish-and-promote-your-quickstart) section, select quickstarts will be featured on redhat.com. This curated set will be selected using this criteria to promote actionable use cases. Since they will be highly visable, we will highlight the most relevant examples that any one can try and tell a compelling story. 
+IMPORTANT: as mentioned in the 
+[How to publish and promote your quickstart](#how-to-publish-and-promote-your-quickstart) section, 
+select quickstarts will be featured on redhat.com. This curated set will be selected using this criteria to 
+promote actionable use cases. Since they will be highly visable, we will highlight the most relevant 
+examples that any one can try and tell a compelling story. 
+
+### Optional, but encouraged
+* Add "[tags](#tag-your-quickstart)" to the About section of your quickstart 
 
 ## How do I create a new quickstart? 
 
