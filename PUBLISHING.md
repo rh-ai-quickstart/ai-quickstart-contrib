@@ -6,29 +6,28 @@ This page describes how we publish.
 
 ## Steps overview
 
-**0. Requirements to be considered for publication:**
-- repository part of the [quickstart org](github.com/rh-ai-quickstart) organization 
-  - can be a fork of an upstream repository, or
-  - originates in [quickstart repos](https://github.com/orgs/rh-ai-quickstart/repositories)
+0. Requirements to be considered for publication:
+   1. repository part of the [quickstart org](https://github.com/rh-ai-quickstart) organization 
+   2. can be a fork of an upstream repository, or
+   3. originates in [quickstart repos](https://github.com/orgs/rh-ai-quickstart/repositories)
 
-**1. Create GH publication review issue** 
-- publication process must be tracked as GH issue (issues in future)
+1. Create GH publication review issue
+   1. publication process must be tracked as GH issue (issues in future)
+   2. (optional) openhands pre-preparation
 
-**(optional) openhands pre-preparation**
+2. Collaborate to get publication ready
+   1. manually create appropriate sub tasks
+   2. contributor must: 
+   3. facilitate review
+   4. work with reviewers/stakeholders 
+   5. Accept/reject/pull changes as appropriate
+	  1. note: if resolution not found, publication delayed
 
-**2. Collaborate to get publication ready**
-- manually create appropriate sub tasks
-- contributor must: 
-  - facilitate review
-  - work with reviewers/stakeholders 
-  - Accept/reject/pull changes as appropriate
-	- note: if resolution not found, publication delayed
+3. Final review
+   1. double check readiness
 
-**3. Final review** 
-- double check readiness
-
-**4. technical stuff**
-- git submodule applicable commit 
+4. technical stuff
+   1. git submodule applicable commit 
 
 
 ## Dependencies (read: stuff to do still)
