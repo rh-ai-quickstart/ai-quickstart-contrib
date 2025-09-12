@@ -29,6 +29,8 @@ This page describes how we publish.
 4. technical stuff
    1. git submodule applicable commit 
 
+5. site build, ci
+
 
 ## Dependencies (read: stuff to do still)
 
