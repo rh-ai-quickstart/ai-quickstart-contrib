@@ -59,14 +59,14 @@ rh-ai-quickstart/
 
 Here are some examples of best practices and common pitfalls: 
 
-| | |
-|----|---| 
-| *Aim for* | deployable by a regular user with regular permissions | :white_check_mark: |
-|   | an appealing user interface | :white_check_mark: | 
-| ^ | conveying an industry use case solved using Red Hat AI | :white_check_mark: |
-| *Avoid* | examples only deployable by cluster admins | :x: | 
-|   | focusing only on the technology, not the problem it solves | :x: |
-| ^ | examples that only deploy a single component without a friendly UI or way to us it | :x: |
+| Best practice or pitfall? | Status |
+|---|---|
+| deployable by a regular user with regular permissions | :white_check_mark: |
+| an appealing user interface | :white_check_mark: | 
+| conveying an industry use case solved using Red Hat AI | :white_check_mark: |
+| examples only deployable by cluster admins | :x: | 
+| focusing only on the technology, not the problem it solves | :x: |
+| examples that only deploy a single component without a friendly UI or way to us it | :x: |
 
 
 IMPORTANT: as mentioned in the 
