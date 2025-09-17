@@ -4,12 +4,26 @@ Here you'll find details on how to contribute AI quickstarts!
 
 ## Table of contents
 
+* [How are quickstarts maintained?](#how-are-quickstarts-maintained)
 * [How are AI quickstarts organized?](#how-are-ai-quickstarts-organized)
 * [What are the repository requirements?](#what-are-the-repository-requirements)
 * [How do I create a new quickstart?](#how-do-i-create-a-new-quickstart)
 * [How to publish and promote your quickstart?](#how-to-publish-and-promote-your-quickstart)
 * [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example) 
-* [How are quickstarts maintained?](#how-are-quickstarts-maintained)
+
+
+
+## How are quickstarts maintained? 
+
+AI quickstarts are maintained by their contributors. Your quickstarts are maintained by
+you. We ask for prompt attention to known issues and requests. If necessary
+actions are not completed, we may pause the promotion of your AI quickstart on
+redhat.com. 
+
+### :stop: STOP :stop:
+Just need to say it once more: 
+
+    **AI quickstart contributors are responsible for the maintenance of their quickstarts!**
 
 ## How are AI quickstarts organized? 
 
@@ -45,15 +59,13 @@ rh-ai-quickstart/
 
 Here are some examples of best practices and common pitfalls: 
 
-*Aim for*
-* deployable by a regular user with regular permissions
-* an appealing user interface 
-* conveys a use case from a specific industry problem solved using Red Hat AI 
+| *Aim for* | deployable by a regular user with regular permissions | :white_check_mark: |
+| ^ | an appealing user interface | :white_check_mark: | 
+| ^ | conveying an industry use case solved using Red Hat AI | :white_check_mark: |
+| *Avoid* | examples only deployable by cluster admins | :x: | 
+| ^ | focusing only on the technology, not the problem it solves | :x: |
+| ^ | examples that only deploy a single component without a friendly UI or way to us it | :x: |
 
-*Avoid* 
-* examples only deployable by cluster admins
-* focusing only on the technology, not the problem it solves - tell the story instead
-* examples that only deploy a single component without friendly UI or way to use it
 
 IMPORTANT: as mentioned in the 
 [How to publish and promote your quickstart](#how-to-publish-and-promote-your-quickstart) section, 
@@ -147,12 +159,6 @@ Yes, the AI BU runs an OpenShift AI cluster for any Red Hatter to use. You can
 deploy your example and share it internally. Reach out using internal channels
 for help. 
 
-## How are quickstarts maintained? 
-
-AI quickstarts are maintained by their owner. Your quickstarts are maintained by
-you. We ask for prompt attention to known issues and requests. If necessary
-actions are not completed, we may pause the promotion of your AI quickstart on
-redhat.com. 
 
 ## Tag your quickstart
 
