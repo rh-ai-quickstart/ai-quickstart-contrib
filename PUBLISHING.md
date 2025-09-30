@@ -5,12 +5,23 @@ This page describes how we publish.
 
 ## General overview
 
+**Decision point still required**
+Options:
+1. repos are linked to specific commit using submodules 
+  1. pro - all content is in original quickstart
+  2. con - submodules can be confusing, update if changes in PR or over time
+2. content is copied into pub repo and maintained separately
+  1. pro - simple content addition process and review
+  2. con - manual, content disconnected from original repo, gets stale
+
+*Assuming submodules for now.*
+
 ```mermaid
   flowchart LR 
     A[Build AI quickstart] --> B{Ready to publish?};
-    B -- Yes --> C[Create Issue in ai-quickstart-pub with 'publication suggestion' template];
     B -- No --> A;
-    C --> D{Complete publication steps?};
+    B -- Yes --> C[branch and PR ai-quickstart-pub];
+    C --> D{Publication review complete?};
     D -- No --> C;
     D -- Yes --> E[Add quickstart to ai-quickstart-pub];
     E --> F[Publish on redhat.com];
@@ -52,6 +63,11 @@ This page describes how we publish.
 
 
 ## Dependencies (read: stuff to do still)
+
+**add rulset requiring PR to ai-quickstart-pub and review by pub team**
+**make sure members can read and create new branches and PRs, but do not have access to main**
+**create PR template**
+**SSG template**
 
 **publication repo** 
 - private 
