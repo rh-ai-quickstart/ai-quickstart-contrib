@@ -41,7 +41,7 @@ Options:
   flowchart LR 
     A[Build AI quickstart] --> B{Ready to publish?}
     B -- No --> A; 
-    B -- Yes --> C[Branch and PR ai-quickstart-PR];
+    B -- Yes --> C[Branch and PR ai-quickstart-PR with static content];
     C --> D{Review complete?};
     D -- No --> C; 
     D -- Yes --> E[Merge to ai-quickstart-pub];
