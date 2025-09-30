@@ -8,7 +8,7 @@ This page describes how we publish.
 ```mermaid
   flowchart LR 
     A[Build AI quickstart] --> B{Ready to publish?};
-    B -- Yes --> C[Create Issue in ai-quickstart-pub with "publication suggestion" template];
+    B -- Yes --> C[Create Issue in ai-quickstart-pub with 'publication suggestion' template];
     B -- No --> A;
     C --> D{Complete publication steps?};
     D -- No --> C;
