@@ -14,6 +14,13 @@ This page describes how we publish.
     D -- No --> C;
     D -- Yes --> E[Add quickstart to ai-quickstart-pub];
     E --> F[Publish on redhat.com];
+
+    style A fill:#fff,stroke:#f00
+    style B fill:#fff,stroke:#f00
+    style C fill:#fff,stroke:#f00
+    style D fill:#fff,stroke:#f00
+    style E fill:#fff,stroke:#f00
+    style F fill:#fff,stroke:#f00
 ```
 
 ## Steps overview
