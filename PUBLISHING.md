@@ -8,11 +8,7 @@ This page describes how we publish.
 **Decision point still required**
 Options:
 1. repos are linked to specific commit using submodules 
-  1. pro - all content is in original quickstart
-  2. con - submodules can be confusing, update if changes in PR or over time
 2. content is copied into pub repo and maintained separately
-  1. pro - simple content addition process and review
-  2. con - manual, content disconnected from original repo, gets stale
 
 *Assuming submodules for now.*
 
@@ -20,11 +16,12 @@ Options:
   flowchart LR 
     A[Build AI quickstart] --> B{Ready to publish?};
     B -- No --> A;
-    B -- Yes --> C[branch and PR ai-quickstart-pub];
-    C --> D{Publication review complete?};
-    D -- No --> C;
-    D -- Yes --> E[Add quickstart to ai-quickstart-pub];
-    E --> F[Publish on redhat.com];
+    B -- Yes --> C{PR already open?};
+    C -- No --> D[branch and PR ai-quickstart-pub];
+    D --> E{Publication review complete?};
+    E -- No, update --> A;
+    E -- Yes --> F[Add quickstart to ai-quickstart-pub];
+    F --> G[Publish on redhat.com];
 
     style A fill:#fff,stroke:#f00
     style B fill:#fff,stroke:#f00
