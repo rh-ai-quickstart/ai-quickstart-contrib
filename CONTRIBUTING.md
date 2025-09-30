@@ -164,13 +164,77 @@ for help.
 
 ## Tag your quickstart
 
+Red Hat's Metadata Initiative for Structured Taxonomy (MIST) group provides 
+guidance on tagging content destined for redhat.com. Effective tagging helps
+Red Hatters, customers and partners find the content they need. 
+
+Before publishing on redhat.com, each quickstart will need: ([summarized from the Source](https://source.redhat.com/departments/marketing/marketing_content_team/marketing_content_team_wiki/how_to_write_compelling_metadata_and_choose_taxonomy_tags_for_redhatcom_webpages))
+* compelling, search engine-friendly:
+  * titles 
+  * descriptions
+  * and metadata
+* taxonomy tags to make content findable and usable 
+
+
+### MIST guidelines
+
+*NOTE: Red Hat's technical writers will assist with this content* 
+
+Needed for the catalog page: 
+* Meta title - short title appearing in search results
+  * Ideal length is between 50 - 60 characters
+  * Describes the primary content of the quickstart - think H1 heading
+  * include primary keywords near beginning 
+  * Compelling and unique title
+  * Nno special characters
+* Meta description - under title in search results
+  * use complete sentences and proper punctuation
+  * expands on title, generates interest 
+  * Ideal length between 155-160 characters
+  * Primary keywords and action verbs near beginning 
+  * Uunique and descriptive 
+  * Include Call to Action (CTA), ie. "how-to", "deploy" 
+  * No special characters
+* Recommended URL - short, human-readable url suggestion that describes content
+  * use keywords 
+  * separate words with hyphens 
+  * avoid capital letters and words like "the" and "of" 
+  * no Red Hat abbreviations 
+  * EXAMPLE: deploy-legal-ai-agent, NOT: deploy-your-first-legal-ai-agentic-assitant-to-your-legal-office-using-RHOAI
+
+*Section below describes the tags MIST recommends. A few notes:
+* Tag list may be incomplete for quickstart use case
+* Some tags may be prepopulated while others marked optional
+* Will provide instructions on where to update tags when available*
+
+
+Tags: 
+* Article type
+* Blog post 
+* Business challenge 
+* Industry 
+* Partners 
+* Product
+* Product
+* Product line
+* Region
+* Resource type
+* Services 
+* Sub Type 
+* Topic 
+
+<! --  Comment this block out until decision made on where and how to update tags
+
+### How to update tags
+
 Help us keep things organized by tagging your quickstart repo. 
 1. Go to your repository
 2. Click the gear in the About section (top right)
-3. Add relevant topic information, i.e. RAG -> enter `RAG`, ai-agents -> `ai-agents`
+3. Add relevant topic information
 4. Include a tag for your team too, see [list of tags](#list-of-tags) below
 
 ### List of tags
+
 * `rh-ai-bu`
 * `rh-ai-bu-cai`
 * `rh-ai-engineering`
@@ -180,4 +244,4 @@ Help us keep things organized by tagging your quickstart repo.
 * `customer`
 * `partner`
 * `community`
-
+-->
