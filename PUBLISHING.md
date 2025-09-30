@@ -45,6 +45,7 @@ Options:
     C --> D{Publication review steps complete?};
     D -- No --> C; 
     D -- Yes --> E[Merge to ai-quickstart-pub];
+    D -- Update content if needed --> A;
     E --> F[Publish on redhat.com];
 
     style A fill:#fff,stroke:#f00
