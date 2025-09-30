@@ -3,6 +3,17 @@
 This page describes how we publish. 
 
 
+## General overview
+
+```mermaid
+  flowchart TD 
+    A[Build AI quickstart] --> B{Ready to publish?};
+    B -- Yes --> C[Pub Issue in ai-quickstart-pub];
+    B -- No --> A;
+    C --> D{Complete publication steps?};
+    D -- No --> C;
+    D -- Yes --> E[Publish to redhat.com];
+```
 
 ## Steps overview
 
