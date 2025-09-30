@@ -70,6 +70,7 @@ Options:
 1. Branch and PR ai-quickstart-pub
    1. members have access to create new branches and submit pull requests
    2. create branch, make appropriate changes, PR
+   3. this step can be completed by quickstart owner, or pub team member
 
 2. Publication review steps complete
    1. double check readiness
@@ -80,13 +81,10 @@ Options:
 
 ## Dependencies (read: stuff to do still)
 
-**add rulset requiring PR to ai-quickstart-pub and review by pub team**
-**make sure members can read and create new branches and PRs, but do not have access to main**
-**create PR template**
-**SSG template**
-
 **publication repo** 
 - proposed permissions:
+  - add rulset requiring PR to ai-quickstart-pub and review by pub team
+  - make sure members can read and create new branches and PRs, but do not have access to main
   - org members: read (still need ability to create ISSUES, BRANCHES, & PRs)
   - pub team: admin (full control over publication content)
 	- cross functional team
@@ -95,8 +93,9 @@ Options:
 	  - AI BU PMM 
 	  - RH Digital representatives (full control to remediate, if needed)
 
-
 **Red Hat dot com tactical requirements**
 - this exists, ie accessibility get from rh-digital
-
   
+**create PR template**
+
+**SSG template**
