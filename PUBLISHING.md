@@ -12,7 +12,8 @@ This page describes how we publish.
     B -- No --> A;
     C --> D{Complete publication steps?};
     D -- No --> C;
-    D -- Yes --> E[Publish to redhat.com];
+    D -- Yes --> E[Add quickstart to ai-quickstart-pub];
+    E --> F[Publish on redhat.com];
 ```
 
 ## Steps overview
