@@ -21,7 +21,7 @@ Options:
     B -- Yes --> C{PR already open?};
     C -- No --> D[Branch and PR ai-quickstart-pub];
     C -- Yes, update submodule pointer --> E;
-    D --> E{Publication review complete?};
+    D --> E{Publication review steps complete?};
     E -- No, update --> A;
     E -- Yes --> F[PR merged to ai-quickstart-pub];
     F --> G[Publish on redhat.com];
@@ -41,8 +41,8 @@ Options:
   flowchart LR 
     A[Build AI quickstart] --> B{Ready to publish?}
     B -- No --> A; 
-    B -- Yes --> C[Branch and PR ai-quickstart-PR with static content];
-    C --> D{Review complete?};
+    B -- Yes --> C[Branch and PR ai-quickstart-pub with static content];
+    C --> D{Publication review steps complete?};
     D -- No --> C; 
     D -- Yes --> E[Merge to ai-quickstart-pub];
     E --> F[Publish on redhat.com];
@@ -55,15 +55,21 @@ Options:
     style F fill:#fff,stroke:#f00
     
 ```
+### two options compared 
 
-## Steps overview
+| | pros | cons |
+| --- | --- | --- |
+| submodule | content in original repo will more closely match catalog site | more complicated publication steps, still gets stale | 
+| static markdown | publication steps easier, options to manage tags separately| larger gap between repo and catalog page |
 
-0. Requirements to be considered for publication:
+<! --
+## Publication steps (detailed) 
+
+0. Build AI quickstart
    1. repository part of the [quickstart org](https://github.com/rh-ai-quickstart) organization 
-   2. can be a fork of an upstream repository, or
-   3. originates in [quickstart repos](https://github.com/orgs/rh-ai-quickstart/repositories)
 
-1. Create GH publication review issue
+1. Branch and PR ai-quickstart-pub
+   1. 
    1. publication process must be tracked as GH issue (issues in future)
    2. (optional) openhands pre-preparation
 
@@ -108,7 +114,7 @@ Options:
 **determine location of publication review request**
 - within specific quickstart, or 
 - in ai-quickstart-contrib with link, or 
-- in pub repo <-
+- in pub repo 
 
 **gh issue publication template**
 - request a repo be reviewed/considered for publication on redhat.com
@@ -142,3 +148,4 @@ Options:
 - process
   - need two reviewers 
   - two reviewers at each stage? or, two reviewers total?
+-->
