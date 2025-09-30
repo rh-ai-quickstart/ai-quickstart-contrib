@@ -12,16 +12,18 @@ Options:
 
 *Assuming submodules for now.*
 
+### `git sumbodule` proposed flow 
+
 ```mermaid
   flowchart LR 
     A[Build AI quickstart] --> B{Ready to publish?};
     B -- No --> A;
     B -- Yes --> C{PR already open?};
-    C -- No --> D[branch and PR ai-quickstart-pub];
-    C -- Yes --> E;
+    C -- No --> D[Branch and PR ai-quickstart-pub];
+    C -- Yes, update submodule pointer --> E;
     D --> E{Publication review complete?};
     E -- No, update --> A;
-    E -- Yes --> F[Add quickstart to ai-quickstart-pub];
+    E -- Yes --> F[PR merged to ai-quickstart-pub];
     F --> G[Publish on redhat.com];
 
     style A fill:#fff,stroke:#f00
@@ -30,6 +32,28 @@ Options:
     style D fill:#fff,stroke:#f00
     style E fill:#fff,stroke:#f00
     style F fill:#fff,stroke:#f00
+    style G fill:#fff,stroke:#f00
+```
+
+### simple markdown flow 
+
+```mermaid
+  flowchart LR 
+    A[Build AI quickstart] --> B{Ready to publish?}
+    B -- No --> A; 
+    B -- Yes --> C[Branch and PR ai-quickstart-PR];
+    C --> D{Review complete?};
+    D -- No --> C; 
+    D -- Yes --> E[Merge to ai-quickstart-pub];
+    E --> F[Publish on redhat.com];
+
+    style A fill:#fff,stroke:#f00
+    style B fill:#fff,stroke:#f00
+    style C fill:#fff,stroke:#f00
+    style D fill:#fff,stroke:#f00
+    style E fill:#fff,stroke:#f00
+    style F fill:#fff,stroke:#f00
+    
 ```
 
 ## Steps overview
