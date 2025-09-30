@@ -18,6 +18,7 @@ Options:
     B -- No --> A;
     B -- Yes --> C{PR already open?};
     C -- No --> D[branch and PR ai-quickstart-pub];
+    C -- Yes --> E;
     D --> E{Publication review complete?};
     E -- No, update --> A;
     E -- Yes --> F[Add quickstart to ai-quickstart-pub];
