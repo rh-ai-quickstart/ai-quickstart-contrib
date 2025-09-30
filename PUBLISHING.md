@@ -62,32 +62,20 @@ Options:
 | submodule | content in original repo will more closely match catalog site | more complicated publication steps, still gets stale | 
 | static markdown | publication steps easier, options to manage tags separately| larger gap between repo and catalog page |
 
-<! --
 ## Publication steps (detailed) 
 
 0. Build AI quickstart
    1. repository part of the [quickstart org](https://github.com/rh-ai-quickstart) organization 
 
 1. Branch and PR ai-quickstart-pub
-   1. 
-   1. publication process must be tracked as GH issue (issues in future)
-   2. (optional) openhands pre-preparation
+   1. members have access to create new branches and submit pull requests
+   2. create branch, make appropriate changes, PR
 
-2. Collaborate to get publication ready
-   1. manually create appropriate sub tasks
-   2. contributor must: 
-   3. facilitate review
-   4. work with reviewers/stakeholders 
-   5. Accept/reject/pull changes as appropriate
-	  1. note: if resolution not found, publication delayed
-
-3. Final review
+2. Publication review steps complete
    1. double check readiness
+   2. work through PR checklist
 
-4. technical stuff
-   1. git submodule applicable commit 
-
-5. site build, ci
+3. Merge to ai-quickstart-pub
 
 
 ## Dependencies (read: stuff to do still)
@@ -98,54 +86,17 @@ Options:
 **SSG template**
 
 **publication repo** 
-- private 
 - proposed permissions:
-  - public: invisible
-  - org members: read (still need ability to create ISSUE)
-  - SMEs: write (may not be needed)
-  - stakeholders: admin (full control over publication content)
+  - org members: read (still need ability to create ISSUES, BRANCHES, & PRs)
+  - pub team: admin (full control over publication content)
 	- cross functional team
       - CAI 
 	  - AI Eng representative? 
 	  - AI BU PMM 
 	  - RH Digital representatives (full control to remediate, if needed)
-	  - 
 
-**determine location of publication review request**
-- within specific quickstart, or 
-- in ai-quickstart-contrib with link, or 
-- in pub repo 
-
-**gh issue publication template**
-- request a repo be reviewed/considered for publication on redhat.com
-- checklist for current status 
-  - reads well 
-  - demonstrated working 
-  - has vertical use case (or, help needed) 
-  - professionally written
-  - optional arcade takes priority
-  - README has all required sections, tags and links
 
 **Red Hat dot com tactical requirements**
 - this exists, ie accessibility get from rh-digital
 
-**FUTURE: ability to group/cascade issues** 
-- if quickstart is "approved" for publication evaluation 
-  - confirm each step of "current status" from original ticket
-  - FUTURE: generate GH issue for each status line for gant, etc
   
-**need vetting by multiple people**
-- why 
-  - removes bias
-  - increases speed 
-  - business continuity 
-  - stakeholder visibility & participation
-- who
-  - AI CAI representatitve 
-  - AI Engineering 
-  - Eco Eng. 
-  - RH .com 
-- process
-  - need two reviewers 
-  - two reviewers at each stage? or, two reviewers total?
--->
