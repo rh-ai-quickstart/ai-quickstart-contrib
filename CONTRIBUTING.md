@@ -49,11 +49,11 @@ rh-ai-quickstart/
 
 ### Required
 
-* A descriptive repo name makes your quickstart easy to find and understand 
+* A descriptive repository name makes your quickstart easy to find and understand 
 * `README.md` - please use README structure found in [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template)
 * Put the images your README uses in the `assets/images/` folder
 * Be as descriptive as possible! REMEMBER: you aren't just documenting code, you're documenting the use case
-* Add a description to your repo's About section
+* Add a description to your repository's About section
 
 ### What criteria are we using? 
 
@@ -72,7 +72,7 @@ Here are some examples of best practices and common pitfalls:
 IMPORTANT: as mentioned in the 
 [How to publish and promote your quickstart](#how-to-publish-and-promote-your-quickstart) section, 
 select quickstarts will be featured on redhat.com. This curated set will be selected using this criteria to 
-promote actionable use cases. Since they will be highly visable, we will highlight the most relevant 
+promote actionable use cases. Since they will be highly visible, we will highlight the most relevant 
 examples that any one can try and tell a compelling story. 
 
 ### Optional, but encouraged
@@ -98,7 +98,7 @@ examples that any one can try and tell a compelling story.
 
 **6. P.S. Remember to update *placeholder* text in the template README**
 
-**7. P.P.S Remember to add a description to your repo **
+**7. P.P.S Remember to add a description to your repository**
 
 1. Click the gear icon in the top right of your repository
 
@@ -113,7 +113,7 @@ examples that any one can try and tell a compelling story.
 
 Yes. We got you! 
 
-The `ai-quickstart-template` repository will prepopulate your repository with: 
+The `ai-quickstart-template` repository will pre-populate your repository with: 
  
 * a README.md file - **NOTE** You'll want to replace the text! 
 * `assets/images/` folder to store images supporting your README
@@ -141,19 +141,6 @@ Your AI quickstart is discoverable once you push commits to
 While many users will browse GitHub, we will curate an AI quickstart catalog on 
 redhat.com. [PUBLISHING.md](PUBLISHING.md) describes our publication process. 
 
-In the meantime, we will use the renowned [ai-on-openshift.io](https://ai-on-openshift.io)
-site for promotion and cataloging. 
-
-Here's how it works: 
-* [ai-on-openshift.io](https://ai-on-openshift.io) is built using GH Actions and mkdocs
-* We use `git submodule` to drop quickstarts in appropriate locations 
-* mkdocs picks up your README converting to html (this is why READMEs are so important)
-* GH Actions will pull your latest changes even though the submodule in main isn't updated
-
-There are 2 ways to list your quickstart: 
-1. Request publication using the issue template in the ai-on-openshift.io repository
-2. Be resonsive to GitHub issues and requests to promote from the AI BU 
-
 
 ## Can I deploy and share a working example? 
 
@@ -180,28 +167,6 @@ Before publishing on redhat.com, each quickstart will need: ([summarized from th
 
 *NOTE: Red Hat's technical writers will assist with this content* 
 
-Needed for the catalog page: 
-* Meta title - short title appearing in search results
-  * Ideal length is between 50 - 60 characters
-  * Describes the primary content of the quickstart - think H1 heading
-  * include primary keywords near beginning 
-  * Compelling and unique title
-  * Nno special characters
-* Meta description - under title in search results
-  * use complete sentences and proper punctuation
-  * expands on title, generates interest 
-  * Ideal length between 155-160 characters
-  * Primary keywords and action verbs near beginning 
-  * Uunique and descriptive 
-  * Include Call to Action (CTA), ie. "how-to", "deploy" 
-  * No special characters
-* Recommended URL - short, human-readable url suggestion that describes content
-  * use keywords 
-  * separate words with hyphens 
-  * avoid capital letters and words like "the" and "of" 
-  * no Red Hat abbreviations 
-  * EXAMPLE: deploy-legal-ai-agent, NOT: deploy-your-first-legal-ai-agentic-assitant-to-your-legal-office-using-RHOAI
-
 *Section below describes the tags MIST recommends. A few notes:
 * Tag list may be incomplete for quickstart use case
 * Some tags may be prepopulated while others marked optional
@@ -209,19 +174,19 @@ Needed for the catalog page:
 
 
 Tags: 
-* Article type
-* Blog post 
-* Business challenge 
-* Industry 
-* Partners 
-* Product
-* Product
-* Product line
-* Region
-* Resource type
-* Services 
-* Sub Type 
-* Topic 
+| is_required? | Tag | Example | 
+| --- | --- | --- |
+| required | Industry | Retail |
+| required, if applicable | Partners | Intel |
+| required | Product | OpenShift AI (put the "featured" RH product |
+| required | Use case | Productivity |
+| optional | Product line | AI | 
+| optional | Business challenge | efficiency | 
+| optional | Region | EMEA |
+| optional | Resource type | quickstart |
+| optional | Services | |
+| optional | Sub Type | |
+| optional | Topic | |
 
 <!-- what about other metadata? last edit, publish date? authors? -->
 
