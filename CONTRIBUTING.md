@@ -191,7 +191,7 @@ Tags:
 <!-- what about other metadata? last edit, publish date? authors? -->
 
 
-<! --  Comment this block out until decision made on where and how to update tags
+<!--  Comment this block out until decision made on where and how to update tags
 
 ### How to update tags
 
