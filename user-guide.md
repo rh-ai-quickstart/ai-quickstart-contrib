@@ -84,8 +84,9 @@ Launch a private chatbot using the
 
 ## Getting help, submitting feedback and making requests 
 
-All feedback is welcome. Specific and actionable feedback is preferred. Please
-create a GitHub issue directly in the quickstart repository whenever possible.
+All feedback and suggestions are welcome. Specific and actionable feedback is
+preferred. Please create a GitHub issue directly in the quickstart repository 
+whenever possible.
 
 For general feedback, please create an
 [issue in ai-quickstart-contrib](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)
