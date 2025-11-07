@@ -7,9 +7,10 @@ Here you'll find details on how to contribute AI quickstarts!
 * [How are quickstarts maintained?](#how-are-quickstarts-maintained)
 * [How are AI quickstarts organized?](#how-are-ai-quickstarts-organized)
 * [What are the repository requirements?](#what-are-the-repository-requirements)
+* [How do I join the GitHub organization?](#how-do-i-join-the-github-organization)
 * [How do I create a new quickstart?](#how-do-i-create-a-new-quickstart)
 * [How to publish and promote your quickstart?](#how-to-publish-and-promote-your-quickstart)
-* [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example) 
+* [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example)
 
 
 
@@ -78,7 +79,11 @@ examples that any one can try and tell a compelling story.
 ### Optional, but encouraged
 * Add "[tags](#tag-your-quickstart)" to the About section of your quickstart 
 
-## How do I create a new quickstart? 
+## How do I join the GitHub organization?
+
+* Submit a new "Membership request" issue following the process outlined in the [user guide](user-guide.md#getting-help-submitting-feedback-and-making-requests).
+
+## How do I create a new quickstart?
 
 **1. Click "Repositories" in the [AI quickstart org](https://github.com/rh-ai-quickstart)**
 
