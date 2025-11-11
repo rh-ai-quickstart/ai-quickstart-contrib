@@ -98,7 +98,7 @@ For general feedback, please create an
 If you're **ever unsure** where to submit a request, just submit an "issue" in the 
 [ai-quickstart-contrib repository](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues).
 
-### Here's how to submit a general request. 
+### Here's how to submit a request. 
 1. Navigate to [ai-quickstart-contrib](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/tree/main)
 2. Select "[Issues](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)"
 3. Click the green "New issue" button, top right 
@@ -109,16 +109,17 @@ If you're **ever unsure** where to submit a request, just submit an "issue" in t
 
 ![rh-ai-quickstart-contrib-new-issue.png](assets/images/rh-ai-quickstart-contrib-new-issue.png)
 
+### GitHub membership
+
+To join the AI quickstart Github organization, please use the **Membership request** option 
+when creating your request. Membership allows you to create AI quickstart 
+repositories for others to use.
+
 ### Other 
 
 **Quickstart suggestion** can be used to suggest a new quickstart. Please note, all
 suggestions are welcome but there are no guarantees we'll be able to build it! 
 
-Please use **Membership request** to request official membership to the AI
-quickstart Github organization. Membership allows you to create AI quickstart
-repositories for others to use. 
 
 Use "Blank issue" for all other requests, feedback or anything else on your
-mind. 
-
-
+mind.
