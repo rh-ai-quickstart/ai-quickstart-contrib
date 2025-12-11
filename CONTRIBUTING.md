@@ -9,6 +9,7 @@ Here you'll find details on how to contribute AI quickstarts!
 * [What are the repository requirements?](#what-are-the-repository-requirements)
 * [How do I join the GitHub organization?](#how-do-i-join-the-github-organization)
 * [How do I create a new quickstart?](#how-do-i-create-a-new-quickstart)
+* [Can I bring an existing quickstart into this organization?](#can-i-bring-an-existing-quickstart-into-this-organization)
 * [How to publish and promote your quickstart?](#how-to-publish-and-promote-your-quickstart)
 * [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example)
 
@@ -21,10 +22,9 @@ you. We ask for prompt attention to known issues and requests. If necessary
 actions are not completed, we may pause the promotion of your AI quickstart on
 redhat.com. 
 
-### :stop: STOP :stop:
-Just need to say it once more: 
+### :warning: STOP 
 
-    **AI quickstart contributors are responsible for the maintenance of their quickstarts!**
+**REMEMBER:** *AI quickstart contributors are responsible for the maintenance of their quickstarts!*
 
 ## How are AI quickstarts organized? 
 
@@ -138,6 +138,32 @@ in your README.
 
 Red Hatters can get started by searching `"interactive experiences (Arcade)"` on
 the Source.
+
+
+## Can I bring an existing quickstart into this organization?
+
+Yes! Here are the two most common options for existing rh-ai-quickstart members 
+(not a member? [Open an issue to request membership](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues): 
+
+### 1) Fork your repository to rh-ai-quickstart 
+
+1. In your github Repository, click "Fork" in the upper right corner 
+2. Select "rh-ai-quickstart" from the "Choose an owner" dropdown
+3. Enter a new repository name if the pre-populated repository name is taken 
+4. Click "Create fork" near the bottom when ready
+5. Navigate to your new [AI quickstart](https://github.com/orgs/rh-ai-quickstart/repositories) fork and get started
+
+
+### 2) Transfer ownership to rh-ai-quickstart
+
+1. In your Github repository, click "Settings" (top right of the repo)
+2. Scroll down to the "Danger Zone" 
+3. Click the "Transfer" in the "Transfer ownership" section
+4. Make sure "Select one of my organizations" is selected and select "rh-ai-quickstart" from the dropdown
+5. Update the repository name, if needed 
+6. Type the confirmation and select "I understand, transfer this repository" when ready
+7. Navigate to your [AI quickstart](https://github.com/orgs/rh-ai-quickstart/repositories) and get started
+
 
 ## How to publish and promote your quickstart?
 
