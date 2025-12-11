@@ -143,7 +143,7 @@ the Source.
 ## Can I bring an existing quickstart into this organization?
 
 Yes! Here are the two most common options for existing rh-ai-quickstart members 
-(not a member? [Open an issue to request membership](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues): 
+(not a member? [Open an issue to request membership](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)):
 
 ### 1) Fork your repository to rh-ai-quickstart 
 
