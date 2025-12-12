@@ -145,7 +145,7 @@ the Source.
 Yes! Here are the two most common options for existing rh-ai-quickstart members 
 (not a member? [Open an issue to request membership](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)):
 
-### 1) Fork your repository to rh-ai-quickstart 
+### 1) Simple & fast: fork your repository to rh-ai-quickstart
 
 1. In your github Repository, click "Fork" in the upper right corner 
 2. Select "rh-ai-quickstart" from the "Choose an owner" dropdown
@@ -156,6 +156,7 @@ Yes! Here are the two most common options for existing rh-ai-quickstart members
 
 ### 2) Transfer ownership to rh-ai-quickstart
 
+#### *Owners* of rh-ai-quickstart with *admin* in the source repo can:  
 1. In your Github repository, click "Settings" (top right of the repo)
 2. Scroll down to the "Danger Zone" 
 3. Click the "Transfer" in the "Transfer ownership" section
@@ -163,6 +164,10 @@ Yes! Here are the two most common options for existing rh-ai-quickstart members
 5. Update the repository name, if needed 
 6. Type the confirmation and select "I understand, transfer this repository" when ready
 7. Navigate to your [AI quickstart](https://github.com/orgs/rh-ai-quickstart/repositories) and get started
+
+#### If you have *admin* in the source repo but are not an *owner* of rh-ai-quickstart, you can: 
+1. Make an owner of `rh-ai-quickstart` an *admin* in the source repository
+2. Request they transfer ownership on your behalf 
 
 
 ## How to publish and promote your quickstart?
