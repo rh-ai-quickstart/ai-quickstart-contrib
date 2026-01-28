@@ -10,6 +10,7 @@ Here you'll find details on how to contribute AI quickstarts!
 * [How do I join the GitHub organization?](#how-do-i-join-the-github-organization)
 * [How do I create a new quickstart?](#how-do-i-create-a-new-quickstart)
 * [Can I bring an existing quickstart into this organization?](#can-i-bring-an-existing-quickstart-into-this-organization)
+* [Is there a content guide I can use](#is-there-a-content-guide-i-can-use)
 * [How to publish and promote your quickstart?](#how-to-publish-and-promote-your-quickstart)
 * [Can I deploy and share a working example?](#can-i-deploy-and-share-a-working-example)
 
@@ -51,7 +52,8 @@ rh-ai-quickstart/
 ### Required
 
 * A descriptive repository name makes your quickstart easy to find and understand 
-* `README.md` - please use README structure found in [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template)
+* `README.md` - use the README structure documented in the [README file specifications](#readme-file-specifications) section
+  * [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) includes a README in the correct format
 * Put the images your README uses in the `docs/images/` folder
 * Be as descriptive as possible! REMEMBER: you aren't just documenting code, you're documenting the use case
 * Add a description to your repository's About section
@@ -76,8 +78,65 @@ select quickstarts will be featured on redhat.com. This curated set will be sele
 promote actionable use cases. Since they will be highly visible, we will highlight the most relevant 
 examples that any one can try and tell a compelling story. 
 
-### Optional, but encouraged
-* Add "[tags](#tag-your-quickstart)" to the About section of your quickstart 
+### README file specifications
+
+README files must follow the same structure for 2 important reasons: 
+1. consistency for our user base - quickstarts adhere to the same redhat.com professional standards we are used to
+2. content is reused so titles, descriptions and more must meet these criteria 
+
+The table below defines our README file structure, including whether the section is required, the expected order and the criteria each section must meet.
+
+| | Section name | Heading level | is required? | Criteria | 
+| --- | --- | --- | --- | --- | 
+| 1 | AI quickstart title | H1 | **Required** | 
+* Max character length: **64**<br>
+* Action focused, begin with **verb** like: Deploy, accelerate, use, boost, etc <br>
+* Title must be descriptive about the use case, for example "Boost online sales with AI", not "Deploy granite on XYZ version 1.2.3" |
+| 2 | Short description | Normal text | **Required** | 
+* Normal text directly underneath the title<br>
+* No longer than **160 characters**<br>
+* Describe the use case with a deeper description <br>
+* Idenitfies what the user will take away from the quickstart, including business benefits, skills or specific applications.| 
+| 3 | Table of contents | H2 | Optional, but recommended | 
+* Standard markdown ToC <br> | 
+| 4 | Detailed description | H2 | **Required** | 
+* a couple paragraphs describing the use case and solution in detail<br>
+* This is not a technical deep dive, it's detailed description of the use case and solution approach| 
+| 5 | See it in action | H3 | Optional, but recommended | 
+* Opportunity to link to videos or arcades for users without a target environment | 
+| 6 | Architecture diagrams | H3 | **Required** | 
+* Put your images in the `docs/images` folder |  
+| 7 | Requirements | H2 | **Required** | 
+| 8 | Notes on requirements | Normal text | Optional | 
+* Using normal text, call out anything the user MUST know, if applicable | 
+| 9 | Minimum hardware requirements | H3 | **Required** | 
+* List minimum hardware requirements to deploy your quickstarts<br> 
+* User should have **ZERO** surprises<br>  
+* Be as specific as possible. Don't just say GPU. Be as specific as possible | 
+| 10 | Minimum software requirements | H3 | **Required** | 
+* List minimum requirements, again, no surprises <br> 
+* Be specific. Don't stop at "OpenShift AI". Instead, tested with OpenShift AI 2.22<br> 
+* If it only works with a specific version, *please* say so. | 
+| 11 | Deploy | H2 | **Required** | 
+* Instructions to deploy your quickstart<br> 
+* This section is flexible on how it's formatted, be clear and consistent<br>
+* Be thorough: assume the user will follow instructions *exactly* with limited knowledge<br>
+* This section should be straightfoward, link to more detailed, or "Advanced Deployment" instructions in a separate section at the bottom of the README |
+| 12 | Delete | H3 | **Reqiured** | 
+* Include instructions to remove the quickstart when finished | 
+| 13 | Reference | H2 | Optional, but recommended | 
+* Include external links to blogs, supporting information, documentation or learning materials, if needed | 
+| 14 | Optional technical section | H2 | Optional | 
+* Space to add more H2 & H3 headings to further explain your quickstarts<br> 
+* Here is where you can have a "Advanced deployment" section, or <br>
+* "Technical deep dive" or a **"Guided experience"** walking a user through how to use your quickstart | 
+| 15 | Tags | H2 | **Required** | 
+* This is a bulleted list following the format **Tag name**: short description <br>
+* Multiple tags will be supported in the future, but for now: <br>
+* ONLY use the **Industry**: [INSERT Industry here] tag <br>
+* More information can be found in the [MIST guidelines](#mist-guidelines) section | 
+
+For a clear example, please see the README file in the [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) repository.
 
 ## How do I join the GitHub organization?
 
@@ -170,6 +229,9 @@ Yes! Here are the two most common options for existing rh-ai-quickstart members
 2. Request they transfer ownership on your behalf 
 
 
+## Is there a content guide I can use? 
+
+
 ## How to publish and promote your quickstart?
 
 Your AI quickstart is discoverable once you push commits to 
@@ -214,8 +276,8 @@ Tags:
 | --- | --- | --- |
 | required | Industry | Retail |
 | required, if applicable | Partners | Intel |
-| required | Product | OpenShift AI (put the "featured" RH product |
-| required | Use case | Productivity |
+| required | Product | OpenShift AI (put the "featured" RH product) |
+| optional | Use case | Productivity |
 | optional | Product line | AI | 
 | optional | Business challenge | efficiency | 
 | optional | Region | EMEA |
