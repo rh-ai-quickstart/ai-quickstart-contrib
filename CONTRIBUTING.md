@@ -89,8 +89,8 @@ The table below defines our README file structure, including whether the section
 | --- | --- | --- | --- | --- | 
 | 1 | AI quickstart title | H1 | **Required** | * Max character length: **64**<br>* Action focused, begin with **verb** like: Deploy, accelerate, use, boost, etc <br>* Title must be descriptive about the use case, for example "Boost online sales with AI", not "Deploy granite on XYZ version 1.2.3" |
 | 2 | Short description | Normal text | **Required** | * Normal text directly underneath the title<br>* No longer than **160 characters**<br>* Describe the use case with a deeper description <br>* Idenitfies what the user will take away from the quickstart, including business benefits, skills or specific applications.| 
-| 3 | Table of contents | H2 | Optional, but recommended | * Standard markdown ToC <br> | | 4 | Detailed description | H2 | **Required** | 
-* a couple paragraphs describing the use case and solution in detail<br>* This is not a technical deep dive, it's detailed description of the use case and solution approach| 
+| 3 | Table of contents | H2 | Optional, but recommended | * Standard markdown ToC | 
+| 4 | Detailed description | H2 | **Required** | * a couple paragraphs describing the use case and solution in detail<br>* This is not a technical deep dive, it's detailed description of the use case and solution approach| 
 | 5 | See it in action | H3 | Optional, but recommended | * Opportunity to link to videos or arcades for users without a target environment | 
 | 6 | Architecture diagrams | H3 | **Required** | * Put your images in the `docs/images` folder |  
 | 7 | Requirements | H2 | **Required** | | 
