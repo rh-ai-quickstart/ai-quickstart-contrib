@@ -103,11 +103,11 @@ If you're **ever unsure** where to submit a request, just submit an "issue" in t
 2. Select "[Issues](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)"
 3. Click the green "New issue" button, top right 
 
-![rh-ai-quickstart-contrib-issues.png](assets/images/rh-ai-quickstart-contrib-issues.png)
+![rh-ai-quickstart-contrib-issues.png](docs/images/rh-ai-quickstart-contrib-issues.png)
 
 4. Pick an appropriate issue type 
 
-![rh-ai-quickstart-contrib-new-issue.png](assets/images/rh-ai-quickstart-contrib-new-issue.png)
+![rh-ai-quickstart-contrib-new-issue.png](docs/images/rh-ai-quickstart-contrib-new-issue.png)
 
 ### GitHub membership
 

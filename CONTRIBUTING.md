@@ -38,11 +38,11 @@ Here's what it looks like:
 rh-ai-quickstart/
 ├── [vllm-cpu]()/
 │   ├── README.md 
-│   ├── assets/images/
+│   ├── docs/images/
 │   └── helm/
 └── [vllm-tool-calling]()/
     ├── README.md 
-    ├── assets/images/
+    ├── docs/images/
     └── vllm-tool-calling/
 ```
 
@@ -52,7 +52,7 @@ rh-ai-quickstart/
 
 * A descriptive repository name makes your quickstart easy to find and understand 
 * `README.md` - please use README structure found in [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template)
-* Put the images your README uses in the `assets/images/` folder
+* Put the images your README uses in the `docs/images/` folder
 * Be as descriptive as possible! REMEMBER: you aren't just documenting code, you're documenting the use case
 * Add a description to your repository's About section
 
@@ -87,15 +87,15 @@ examples that any one can try and tell a compelling story.
 
 **1. Click "Repositories" in the [AI quickstart org](https://github.com/rh-ai-quickstart)**
 
-![rh-ai-quickstart-repos.png](assets/images/rh-ai-quickstart-repos.png)
+![rh-ai-quickstart-repos.png](docs/images/rh-ai-quickstart-repos.png)
 
 **2. Click "New repository" (top right)** 
 
-![rh-ai-quickstart-new-repo.png](assets/images/rh-ai-quickstart-new-repo.png)
+![rh-ai-quickstart-new-repo.png](docs/images/rh-ai-quickstart-new-repo.png)
 
 **3. Click "No template" and select `rh-ai-quickstart/ai-quickstart-template`**
 
-![rh-ai-quickstart-template.png](assets/images/rh-ai-quickstart-template.png)
+![rh-ai-quickstart-template.png](docs/images/rh-ai-quickstart-template.png)
 
 **4. Give your repository a name, make it Public and "Create repository" ** 
 
@@ -107,11 +107,11 @@ examples that any one can try and tell a compelling story.
 
 1. Click the gear icon in the top right of your repository
 
-![rh-ai-quickstart-repo-gear.png](assets/images/rh-ai-quickstart-repo-gear.png)
+![rh-ai-quickstart-repo-gear.png](docs/images/rh-ai-quickstart-repo-gear.png)
 
 2. Add a short description 
 
-![rh-ai-quickstart-repo-description.png](assets/images/rh-ai-quickstart-repo-description.png)
+![rh-ai-quickstart-repo-description.png](docs/images/rh-ai-quickstart-repo-description.png)
 
 
 ### Is there a template repository? 
@@ -121,7 +121,7 @@ Yes. We got you!
 The `ai-quickstart-template` repository will pre-populate your repository with: 
  
 * a README.md file - **NOTE** You'll want to replace the text! 
-* `assets/images/` folder to store images supporting your README
+* `docs/images/` folder to store images supporting your README
 * `.github/workflows/` GH Actions to manually submit a PR for publication
 
 
