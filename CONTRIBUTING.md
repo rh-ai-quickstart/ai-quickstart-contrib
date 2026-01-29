@@ -51,9 +51,11 @@ rh-ai-quickstart/
 ### Required
 
 * A descriptive repository name makes your quickstart easy to find and understand 
-* `README.md` - use the README structure documented in the [README file specifications](#readme-file-specifications) section
-  * [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) includes a README in the correct format
-* Put the images your README uses in the `docs/images/` folder
+* `README.md`: 
+  * Must use the README structure documented in the [README file specifications](#readme-file-specifications) section
+  * FYI - [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) includes a README in the correct format
+  * Content and language must follow the ["Guide for Authors" writing guide](writing-guide.md)
+* Images & screenshots go in the `docs/images/` folder
 * Be as descriptive as possible! REMEMBER: you aren't just documenting code, you're documenting the use case
 * Add a description to your repository's About section
 
