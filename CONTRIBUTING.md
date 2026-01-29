@@ -105,6 +105,9 @@ The table below defines our README file structure, including whether the section
 
 For a clear example, please see the README file in the [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) repository.
 
+Additionally, remember to avoid jargon and follow standard Red Hat corporate style guides. 
+
+
 ## How do I join the GitHub organization?
 
 * Submit a new "Membership request" issue following the process outlined in the [user guide](user-guide.md#getting-help-submitting-feedback-and-making-requests).
