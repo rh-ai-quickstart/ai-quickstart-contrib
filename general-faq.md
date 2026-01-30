@@ -76,8 +76,9 @@ Answers are *yes*, *yes* and *no*, respectively.
 
 ### Get started 
 
-Each repository is a standalone quickstart. Simply click through, read the
+* on **GitHub:** Each repository is a standalone quickstart. Simply click through, read the
 README, and follow the installation instructions.
+* with the [**AI quickstart catalog on redhat.com:**](https://docs.redhat.com/en/learn/ai-quickstarts) click into each card to learn more about each use case.
 
 ### Get help 
 
@@ -85,8 +86,8 @@ Not finding what you're looking for? Try the
 [user guide](user-guide.md)
 first! :closed_book:
 
-Still have questions? Need help? We got you. Just open a GitHub issue in the relevant
-quickstart repository!
+Still have questions? Need help? We got you. Simply open a **GitHub issue in the relevant
+quickstart repository!**
 
 Need help unrelated to a specific example? Open a GitHub issue in 
 [ai-quickstart-contrib](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)
