@@ -42,6 +42,10 @@ git checkout -b [INSERT BRANCH NAME HERE]
 cd quickstart/llm-cpu-serving
 git pull
 ```
-4. `git add`, `git commit`, `git push` 
-5. open a new PR 
+4. change directories 
+```
+cd ../../
+```
+5. `git add`, `git commit`, `git push` 
+6. open a new PR 
 
