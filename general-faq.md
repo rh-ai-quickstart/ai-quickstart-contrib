@@ -87,7 +87,7 @@ Not finding what you're looking for? Try the
 first! :closed_book:
 
 Still have questions? Need help? We got you. Simply open a **GitHub issue in the relevant
-quickstart repository!**
+quickstart repository!** The [user guide](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/blob/main/user-guide.md#getting-help-submitting-feedback-and-making-requests) has detailed instructions.
 
 Need help unrelated to a specific example? Open a GitHub issue in 
 [ai-quickstart-contrib](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)
