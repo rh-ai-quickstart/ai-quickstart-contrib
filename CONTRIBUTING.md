@@ -28,6 +28,8 @@ redhat.com.
 
 ## How are AI quickstarts organized? 
 
+## In the `rh-ai-quickstart` organization (here) 
+
 Every AI quickstart is its own repository. We do this so they are easy to browse,
 clone and deploy! AI quickstarts are collected here in the 
 [AI quickstart GitHub Organization](https://github.com/rh-ai-quickstart). 
@@ -45,6 +47,10 @@ rh-ai-quickstart/
     ├── docs/images/
     └── vllm-tool-calling/
 ```
+
+### The AI quickstart catalog on redhat.com 
+
+The [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) presents a subset of these quickstarts on the redhat.com domain to make discoverability easier for most users. Please see the [publishing](#how-to-publish-and-promote-your-quickstart) section below for more information.  
 
 ## What are the repository requirements? 
 
@@ -75,7 +81,7 @@ Here are some examples of best practices and common pitfalls:
 
 IMPORTANT: as mentioned in the 
 [How to publish and promote your quickstart](#how-to-publish-and-promote-your-quickstart) section, 
-select quickstarts will be featured on redhat.com. This curated set will be selected using this criteria to 
+select quickstarts are featured on [redhat.com](https://docs.redhat.com/en/learn/ai-quickstarts). This curated set will be selected using this criteria to 
 promote actionable use cases. Since they will be highly visible, we will highlight the most relevant 
 examples that any one can try and tell a compelling story. 
 
@@ -205,8 +211,8 @@ Yes! Here are the two most common options for existing rh-ai-quickstart members
 
 Your AI quickstart is discoverable once you push commits to 
 [github.com/rh-ai-quickstart](https://github.com/rh-ai-quickstart). 
-While many users will browse GitHub, we will curate an AI quickstart catalog on 
-redhat.com. [PUBLISHING.md](PUBLISHING.md) describes our publication process. 
+While many users will browse GitHub, the [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) on 
+redhat.com offers a better browsing experience for most users. [PUBLISHING.md](PUBLISHING.md) describes our publication process. 
 
 
 ## Can I deploy and share a working example? 

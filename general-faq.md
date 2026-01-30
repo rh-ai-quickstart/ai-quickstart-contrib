@@ -33,6 +33,9 @@ Each
 [repository](https://github.com/orgs/rh-ai-quickstart/repositories)
  is a quickstart making it easy for you to get started.
 
+For broader visibility and discoverability, selected content is also published in the [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) on redhat.com. 
+
+
 ## Are there requirements? 
 
 Each quickstart comes with its own list of requirements. They're in the
