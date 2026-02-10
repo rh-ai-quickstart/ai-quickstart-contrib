@@ -122,11 +122,64 @@ Additionally, remember to avoid jargon and follow standard Red Hat corporate sty
 
 ## How do I create a new quickstart?
 
+There are two ways to create a new quickstart: using the Claude Code plugin (recommended) or manually.
+
+### Option 1: Using the Claude Code plugin (Recommended)
+
+The `claude-code-plugin` in this repository automates scaffolding, README generation, validation, and publishing readiness checks. It requires [Claude Code](https://claude.ai/code) 2.1.38 or later.
+
+**1. Launch Claude Code with the plugin**
+
+```bash
+claude --plugin-dir /path/to/ai-quickstart-contrib/claude-code-plugin
+```
+
+**2. Scaffold your quickstart**
+
+Run the `/quickstart:init` command. It will prompt you for your quickstart name, industry, use case description, AI capabilities, and target Red Hat products. It clones the template, renames placeholders, and generates a README scaffold with all 15 required sections.
+
+```
+/quickstart:init
+```
+
+**3. Generate your README**
+
+Once you've built out your quickstart, use `/quickstart:readme` to generate a complete README from your codebase. Pass a short use case description as an argument:
+
+```
+/quickstart:readme AI-powered fraud detection for financial transactions
+```
+
+**4. Generate architecture diagrams**
+
+Use `/quickstart:architecture` to analyze your deployment configs and generate diagrams:
+
+```
+/quickstart:architecture mermaid
+```
+
+**5. Validate and prepare for publishing**
+
+The plugin includes several commands to help you get ready for publication:
+
+| Command | What it does |
+|---------|--------------|
+| `/quickstart:validate-deploy` | Validates deployment configs (Compose, Helm, Dockerfiles, env vars) |
+| `/quickstart:tags` | Suggests and validates MIST taxonomy tags for your README |
+| `/quickstart:publish-check` | Runs a full publishing readiness checklist across 7 categories |
+
+Additionally, the plugin automatically validates your README against the 15-section format whenever you edit it.
+
+**6. Push your repository to [rh-ai-quickstart](https://github.com/rh-ai-quickstart) and remember to add a description to the About section**
+
+
+### Option 2: Manually
+
 **1. Click "Repositories" in the [AI quickstart org](https://github.com/rh-ai-quickstart)**
 
 ![rh-ai-quickstart-repos.png](docs/images/rh-ai-quickstart-repos.png)
 
-**2. Click "New repository" (top right)** 
+**2. Click "New repository" (top right)**
 
 ![rh-ai-quickstart-new-repo.png](docs/images/rh-ai-quickstart-new-repo.png)
 
@@ -134,7 +187,7 @@ Additionally, remember to avoid jargon and follow standard Red Hat corporate sty
 
 ![rh-ai-quickstart-template.png](docs/images/rh-ai-quickstart-template.png)
 
-**4. Give your repository a name, make it Public and "Create repository" ** 
+**4. Give your repository a name, make it Public and "Create repository" **
 
 **5. Build! :rocket:**
 
@@ -146,7 +199,7 @@ Additionally, remember to avoid jargon and follow standard Red Hat corporate sty
 
 ![rh-ai-quickstart-repo-gear.png](docs/images/rh-ai-quickstart-repo-gear.png)
 
-2. Add a short description 
+2. Add a short description
 
 ![rh-ai-quickstart-repo-description.png](docs/images/rh-ai-quickstart-repo-description.png)
 

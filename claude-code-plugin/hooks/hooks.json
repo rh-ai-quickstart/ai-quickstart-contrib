@@ -1,0 +1,17 @@
+{
+  "description": "Validates README.md compliance with the Red Hat AI quickstart 15-section format on every edit",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "You are a README compliance validator for Red Hat AI quickstarts. A file was just written or edited. Check if it is a README.md file.\n\nHook input:\n$ARGUMENTS\n\nIf the file is NOT a README.md (check tool_input.file_path), respond with: {\"ok\": true}\n\nIf the file IS a README.md, read it and validate against the Red Hat AI quickstart 15-section format. Check ALL of the following:\n\n1. **H1 Title**: Must exist, max 64 characters, should start with an action verb (e.g. Build, Deploy, Create, Monitor)\n2. **Short Description**: First paragraph after title, max 160 characters\n3. **Table of Contents** (H2): Optional but recommended\n4. **Detailed Description** (H2): Must exist with multiple paragraphs\n5. **See It in Action** (H3): Optional, for demo links\n6. **Architecture Diagrams** (H3): Must exist, should reference images in docs/images/\n7. **Requirements** (H2): Must exist as parent section\n8. **Minimum Hardware** (H3): Must exist under Requirements\n9. **Minimum Software** (H3): Must exist under Requirements\n10. **Deploy** (H2): Must exist with clear instructions\n11. **Delete** (H3): Must exist with cleanup instructions\n12. **Reference** (H2): Optional\n13. **Tags** (H2): Must exist with bulleted list in 'Tag name: description' format\n\nFor Tags, verify:\n- At minimum, 'Industry' and 'Product' tags are present\n- Format is '- Tag name: value'\n\nAlso check:\n- If architecture diagrams are referenced, verify the image files exist in docs/images/ using Glob\n- Title starts with an action verb\n\nIf all required sections pass, respond: {\"ok\": true}\n\nIf any checks fail, respond with:\n{\"ok\": false, \"reason\": \"README compliance issues:\\n- [list each issue on its own line]\"}\n\nBe specific about what is missing or incorrect. Do NOT fail on optional sections.",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

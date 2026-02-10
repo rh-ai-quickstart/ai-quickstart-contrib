@@ -1,0 +1,10 @@
+{
+  "name": "quickstart",
+  "description": "Helps authors create, validate, and publish Red Hat AI quickstarts",
+  "version": "1.0.0",
+  "author": {
+    "name": "Red Hat AI Quickstarts"
+  },
+  "homepage": "https://github.com/rh-ai-quickstart/ai-quickstart-contrib",
+  "keywords": ["quickstart", "red-hat", "openshift-ai", "documentation"]
+}
