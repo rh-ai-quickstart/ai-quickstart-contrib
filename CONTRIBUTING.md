@@ -28,7 +28,7 @@ redhat.com.
 
 ## How are AI quickstarts organized? 
 
-## In the `rh-ai-quickstart` organization (here) 
+### In the `rh-ai-quickstart` organization (here) 
 
 Every AI quickstart is its own repository. We do this so they are easy to browse,
 clone and deploy! AI quickstarts are collected here in the 
@@ -109,7 +109,7 @@ The table below defines our README file structure, including whether the section
 | 12 | Delete | H3 | **Reqiured** | * Include instructions to remove the quickstart when finished | 
 | 13 | Reference | H2 | Optional, but recommended | * Include external links to blogs, supporting information, documentation or learning materials, if needed | 
 | 14 | Optional technical section | H2 | Optional | * Space to add more H2 & H3 headings to further explain your quickstarts<br> * Here is where you can have a "Advanced deployment" section, or <br>* "Technical deep dive" or a **"Guided experience"** walking a user through how to use your quickstart | 
-| 15 | Tags | H2 | **Required** | * This is a bulleted list following the format **Tag name**: short description <br>* Multiple tags will be supported in the future, but for now: <br>* ONLY use the **Industry**: [INSERT Industry here] tag <br>* More information can be found in the [MIST guidelines](#mist-guidelines) section | 
+| 15 | Tags | H2 | **Required** | * This is a bulleted list following the format **Tag name**: short description <br>* Multiple tags will be supported in the future, but for now: <br>* ONLY use the **Industry**: [INSERT Industry here] tag <br>* More information can be found in the [Tag your quickstart](#tag-your-quickstart) section | 
 
 For a clear example, please see the README file in the [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) repository.
 
@@ -240,26 +240,43 @@ Before publishing on redhat.com, each quickstart will need: ([summarized from th
 
 *NOTE: Red Hat's technical writers will assist with this content* 
 
-*Section below describes the tags MIST recommends. A few notes:
+Section below describes the tags MIST recommends. A few notes:
 * Tag list may be incomplete for quickstart use case
 * Some tags may be prepopulated while others marked optional
-* Will provide instructions on where to update tags when available*
+* Will provide instructions on where to update tags when available
+* Select your industry tag from the [Industry tags](#industry-tags) section below
 
 
 Tags: 
 | is_required? | Tag | Example | 
 | --- | --- | --- |
-| required | Industry | Retail |
-| required, if applicable | Partners | Intel |
-| required | Product | OpenShift AI (put the "featured" RH product) |
+| **required** | Industry | Retail |
+| **required**, if applicable | Partners | Intel |
+| **required** | Product | OpenShift AI (put the "featured" RH product) |
 | optional | Use case | Productivity |
-| optional | Product line | AI | 
-| optional | Business challenge | efficiency | 
-| optional | Region | EMEA |
-| optional | Resource type | quickstart |
-| optional | Services | |
-| optional | Sub Type | |
-| optional | Topic | |
+
+
+### Industry tags
+
+AI quickstarts require Industry tags. The following industries are recognized at this time so please select and only use options from this list:
+* Automotive
+* Banking and securities
+* Broadcasting and cable
+* Education
+* Government
+* Health insurance payer
+* Healthcare provider
+* Insurance
+* Life sciences
+* Manufacturing
+* Media and IT services
+* Retail
+* Telecommunications
+* Transportation
+* Utilities
+* Wholesale trade
+
+
 
 <!-- what about other metadata? last edit, publish date? authors? -->
 
