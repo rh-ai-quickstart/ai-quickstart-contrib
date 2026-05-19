@@ -66,7 +66,7 @@ Answers are *yes*, *yes* and *no*, respectively.
 - New quickstarts must be proven before they can be included.
 - Your environment may differ from ours, but we'll clearly outline dependencies
   up front
-- AI quickstarts are maintained by their owner
+- AI quickstarts are maintained by their owner which can be Red Hatters, partners or community members
 - Red Hat AI SMEs offer guidance as needed
 - AI quickstarts are not Red Hat products. They are examples.
 - quickstarts are not products and are not covered by Red Hat support 
@@ -105,7 +105,7 @@ For general feedback, please create an
 
 #### Add a quickstart! 
 
-Anyone can contribute a quickstart! :smile: 
+Anyone can contribute a quickstart! :smile: This means Red Hatters, partners, community members & customers!
 Please use the [contributor's guide](CONTRIBUTING.md) to get started. 
 
 ## Now what? 

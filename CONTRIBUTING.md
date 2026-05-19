@@ -251,7 +251,7 @@ Tags:
 | is_required? | Tag | Example | 
 | --- | --- | --- |
 | **required** | Industry | Retail |
-| **required**, if applicable | Partners | Intel |
+| **required**, if applicable | Partner | Intel |
 | **required** | Product | OpenShift AI (put the "featured" RH product) |
 | optional | Use case | Productivity |
 
@@ -276,30 +276,3 @@ AI quickstarts require Industry tags. The following industries are recognized at
 * Utilities
 * Wholesale trade
 
-
-
-<!-- what about other metadata? last edit, publish date? authors? -->
-
-
-<!--  Comment this block out until decision made on where and how to update tags
-
-### How to update tags
-
-Help us keep things organized by tagging your quickstart repo. 
-1. Go to your repository
-2. Click the gear in the About section (top right)
-3. Add relevant topic information
-4. Include a tag for your team too, see [list of tags](#list-of-tags) below
-
-### List of tags
-
-* `rh-ai-bu`
-* `rh-ai-bu-cai`
-* `rh-ai-engineering`
-* `rh-ecosystem-engineering`
-* `rh-ai-ssa`
-* `rh-consulting`
-* `customer`
-* `partner`
-* `community`
--->
