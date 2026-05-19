@@ -251,7 +251,7 @@ Tags:
 | is_required? | Tag | Example | 
 | --- | --- | --- |
 | **required** | Industry | Retail |
-| **required**, if applicable | Partner | Intel |
+| **required**, if applicable | Partner | Intel  (separate multiple partners with commas on a single line) |
 | **required** | Product | OpenShift AI (put the "featured" RH product) |
 | optional | Use case | Productivity |
 
