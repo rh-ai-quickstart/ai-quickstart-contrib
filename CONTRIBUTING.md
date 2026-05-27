@@ -60,7 +60,7 @@ The [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) pre
 * `README.md`: 
   * Must use the README structure documented in the [README file specifications](#readme-file-specifications) section
   * FYI - [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) includes a README in the correct format
-  * Content and language must follow the ["Guide for Authors" writing guide](writing-guide.md)
+  * Content and language must follow Red Hat corporate standards (see [Publishing Guide](PUBLISHING.md))
 * Images & screenshots go in the `docs/images/` folder
 * Be as descriptive as possible! REMEMBER: you aren't just documenting code, you're documenting the use case
 * Add a description to your repository's About section
