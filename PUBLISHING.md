@@ -1,6 +1,6 @@
-# Publishing Guide :book: 
+# Publishing guide
 
-This guide covers everything you need to publish your quickstart to the [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) on redhat.com — from content quality to technical workflow.
+This guide covers everything you need to publish your quickstart to the [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) on redhat.com — from content quality to technical workflow. Not every quickstart qualify to be published on redhat.com and in order to do so, specific requirements have to be met. 
 
 ---
 
@@ -17,11 +17,11 @@ This guide covers everything you need to publish your quickstart to the [AI quic
 
 ---
 
-## Before You Publish: Content Requirements
+## Before you publish: Content requirements
 
 Creating content that meets Red Hat's corporate standards ensures your quickstart publishes faster and protects Red Hat legally. Following these practices makes your content compliant, accessible, and optimized for search.
 
-### Naming and Branding Consistency
+### Naming and branding consistency
 
 Improper product naming is the most common reason for editorial delays. Accurate naming protects our trademarks and ensures a professional brand presence.
 

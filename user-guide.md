@@ -8,7 +8,6 @@
 
 This guide contains everything you need to deploy AI quickstarts.
 
- **Deploy quickly** • **Explore possibilities**
 
 </div>
 
@@ -31,7 +30,7 @@ AI quickstarts are **simple, ready-to-deploy AI examples** for Red Hat platforms
 They are:
 - ✅ **Straightforward** — Easy to launch and use
 - ✅ **Focused** — Real business use cases, not just demos
-- ✅ **Ready to go** — Deploy in minutes
+- ✅ **Ready to go** — Deploy with intructions provided
 
 Quickstarts exist because some of us learn by doing and want to see what open source AI can bring. If that sounds like you, **you're in the right place!**
 
@@ -62,7 +61,15 @@ Most quickstarts use these tools. Consider installing them to save time. Certain
 **All repositories:**  
 📦 **[GitHub organization](https://github.com/orgs/rh-ai-quickstart/repositories)** — Full collection including experimental ones. 
 
-Please use the meta data labels on the quickstart repos to orientate yourself. The label "completed" indicate the quickstart is ready to deploy, while the label "work-in-progress" means it's being built and not yet finished. 
+**Understanding repository labels:**
+
+When browsing quickstarts, look for these GitHub labels to understand their status:
+- 🟢 **`completed`** - Quickstart is finished, tested, and ready to deploy
+- 🟡 **`work-in-progress`** - Quickstart is being built and not yet finished
+- ⭐ **`published`** - Quickstart is featured in the curated catalog on redhat.com
+- 🔴 **`deprecated`** - Quickstart is on its way out and no longer maintained
+
+These labels help you find quickstarts that are ready to use! 
 
 **Helper repos** (not quickstarts, but meant to help us maintainers to organise and assist you ):
 - `.github` — Organization profile
