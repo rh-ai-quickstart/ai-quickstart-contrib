@@ -1,125 +1,106 @@
-# The (eventually) complete user guide to AI quickstarts! :raised_hands: 
+<div align="center">
 
-This *user guide* is an effort 
-to put everything you'll need to know about AI quickstarts in one place. It
-exists to make sure you're successful with AI quickstarts. 
+# Welcome adventurer!
 
-AI quickstart creators may want to start with the 
-[contributor's guide](CONTRIBUTING.md)
-instead.
+</div>
 
-## Table of contents
-* [General AI quickstart information](#general-ai-quickstart-information)
-* [Getting started](#getting-started)
-* [Getting help, submitting feedback and making requests](#getting-help-submitting-feedback-and-making-requests)
+<div align="center">
 
-## General AI quickstart information 
-
-### AI quickstarts definition 
-
-Quickstarts are simple, ready-to-use AI examples using Red Hat platforms. 
-They are straightforward and focused example use cases - easy to launch, easy to
-get, and *ready to go!*
-
-Quickstarts exist because some of us learn by doing and want evidence, proof, or
-to simply get started as quickly as possible. **If that sounds like you, you're
-in the right place.** Please continue reading!
-
-### "Logistics" 
-
-AI quickstarts are collected in the 
-[AI quickstarts GitHub Organization](https://github.com/rh-ai-quickstart). 
-Each repository is a quickstart making it easy for you to get started. 
-
-Red Hatters, our partners and community members create and maintain AI
-quickstarts for anyone to use in their Red Hat AI platform. Each quickstart is
-stored as a repository in the 
-[AI quickstarts GitHub Organization](https://github.com/rh-ai-quickstart). 
-Organizing quickstarts this way makes them easier to maintain long term. 
-
-Every repository is an AI quickstart with a few notable exceptions: 
-* [The .github repository](https://github.com/rh-ai-quickstart/.github) - is the landing page for AI quickstarts. You can safely ignore it.
-* [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) - is a template repository for creators to get started easily.
-* [ai-quickstart-contrib](https://github.com/rh-ai-quickstart/ai-quickstart-contrib) - is where we document, manage projects and plans, and interact with the community through Github issues, for example. This is where you get help if you need it. 
+This guide contains everything you need to deploy AI quickstarts.
 
 
-## Getting started
+</div>
 
-### Deployment tool prerequisistes 
+---
 
-The tools you need depend on the quickstart you want to deploy. Each quickstart
-will document the specific tools needed. 
-
-But, consider installing these commonly used tools beforehand to save yourself time. 
-
-| Useful Tool | Description | Link to instructions | 
-| --- | --- | --- | 
-| `git` | Easily clone (download) AI quickstarts before deployment | [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) | 
-| `oc` | Tool makes it easy to connect to OpenShift and deploy quickstarts | [OpenShift CLI (oc)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cli_tools/openshift-cli-oc#cli-getting-started) | 
-| `helm` | Package manager for kubernetes | [Helm CLI](https://docs.redhat.com/en/documentation/openshift_container_platform/4.3/html/cli_tools/helm-cli#getting-started-with-helm-on-openshift-container-platform)  | 
-| `make` | Automates builds and tasks | Included in \*nix environments use package managers or trusted installation instructions for Windows environments | 
-
-These tools are useful to have especially when you're deploying from a local
-terminal. Alternatively, your cluster administrator could install the 
-[OpenShift Web Terminal operator (4.16)](https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/web_console/web-terminal#installing-web-terminal)
-to deploy examples directly from OpenShift. 
-
-Remember, create an 
-[issue](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)
- if you would like help or updates to this documentation. 
+## Skip tutorial?
 
 
-### Deploy your first quickstart! :rocket: 
+1. Browse the **[AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts)**
+2. Pick a quickstart that interests you
+3. Follow the README deployment instructions
+4. Done! 
 
-Launch a private chatbot using the 
-[LLM CPU Serving quickstart](https://github.com/rh-ai-quickstart/llm-cpu-serving). 
+---
 
-**Here's what you'll need to do:**
-1. Read through the [README](https://github.com/rh-ai-quickstart/llm-cpu-serving)
-2. Follow directions in the "[Install](https://github.com/rh-ai-quickstart/llm-cpu-serving?tab=readme-ov-file#install)" section 
-3. Launch the chatbot
+## Run tutorial!
 
-*Simple & ready to go!* 
+AI quickstarts are **simple, ready-to-deploy AI examples** for Red Hat platforms.
+
+They are:
+- ✅ **Straightforward** — Easy to launch and use
+- ✅ **Focused** — Real business use cases, not just demos
+- ✅ **Ready to go** — Deploy with intructions provided
+
+Quickstarts exist because some of us learn by doing and want to see what open source AI can bring. If that sounds like you, **you're in the right place!**
+
+---
+
+> "It's dangerous to go alone. Take this..."🗡️
 
 
-## Getting help, submitting feedback and making requests 
 
-All feedback and suggestions are welcome. Specific and actionable feedback is
-preferred. Please create a GitHub issue directly in the quickstart repository 
-whenever possible.
 
-For general feedback, please create an
-[issue in ai-quickstart-contrib](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)
-. General requests may resemble: 
-* General help requests 
-* Suggesting a new AI quickstarts 
-* General feedback
+| Tool | What it does | Install |
+| --- | --- | --- |
+| `git` | Clone quickstarts | [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) |
+| `oc` | Deploy to OpenShift | [OpenShift CLI](https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/cli_tools/openshift-cli-oc#cli-getting-started) |
+| `helm` | Kubernetes package manager | [Helm CLI](https://docs.redhat.com/en/documentation/openshift_container_platform/4.3/html/cli_tools/helm-cli#getting-started-with-helm-on-openshift-container-platform) |
+| `make` | Automate builds | Included in Linux/Mac |
 
-If you're **ever unsure** where to submit a request, just submit an "issue" in the 
-[ai-quickstart-contrib repository](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues).
+Most quickstarts use these tools. Consider installing them to save time. Certain quickstarts might require other tools which should be specified under the "Requirements" for that specific quickstart.     
+**Pro tip:** You can also use the [OpenShift Web Terminal](https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/web_console/web-terminal#installing-web-terminal) to deploy directly from your browser!
 
-### Here's how to submit a request. 
+---
+
+##  Where to find quickstarts?
+
+**Main catalog:**  
+🌟 **[AI quickstart catalog on redhat.com](https://docs.redhat.com/en/learn/ai-quickstarts)** — Curated, polished examples
+
+**All repositories:**  
+📦 **[GitHub organization](https://github.com/orgs/rh-ai-quickstart/repositories)** — Full collection including experimental ones. 
+
+**Understanding repository labels:**
+
+When browsing quickstarts, look for these GitHub labels to understand their status:
+- 🟢 **`completed`** - Quickstart is finished, tested, and ready to deploy
+- 🟡 **`work-in-progress`** - Quickstart is being built and not yet finished
+- ⭐ **`published`** - Quickstart is featured in the curated catalog on redhat.com
+- 🔴 **`deprecated`** - Quickstart is on its way out and no longer maintained
+
+These labels help you find quickstarts that are ready to use! 
+
+**Helper repos** (not quickstarts, but meant to help us maintainers to organise and assist you ):
+- `.github` — Organization profile
+- `ai-quickstart-template` — Template for creators
+- `ai-quickstart-contrib` — This documentation hub
+
+---
+
+## Need help?
+
+
+- 📝 [Open an issue](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)
+- 🎯 File issues in the specific quickstart repo if it's related to a specific quickstart
+- 💡 Suggest new quickstarts, we love to hear your idéas!
+
+### How to submit an issue
+
 1. Navigate to [ai-quickstart-contrib](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/tree/main)
 2. Select "[Issues](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues)"
-3. Click the green "New issue" button, top right 
+3. Click the green "New issue" button, top right
 
 ![rh-ai-quickstart-contrib-issues.png](docs/images/rh-ai-quickstart-contrib-issues.png)
 
-4. Pick an appropriate issue type 
+4. Pick an appropriate issue type
 
 ![rh-ai-quickstart-contrib-new-issue.png](docs/images/rh-ai-quickstart-contrib-new-issue.png)
 
-### GitHub membership
+---
 
-To join the AI quickstart Github organization, please use the **Membership request** option 
-when creating your request. Membership allows you to create AI quickstart 
-repositories for others to use.
+<div align="center">
 
-### Other 
-
-**Quickstart suggestion** can be used to suggest a new quickstart. Please note, all
-suggestions are welcome but there are no guarantees we'll be able to build it! 
-
-
-Use "Blank issue" for all other requests, feedback or anything else on your
-mind.
+_Happy exploring!_ 🚀   
+_Built by Red Hat AI experts, partners, and the community_ ✨
+</div>
