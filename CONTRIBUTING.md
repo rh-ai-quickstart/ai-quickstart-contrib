@@ -71,6 +71,31 @@ Your README must follow this structure for consistency and reusability:
 
 📖 **Example:** See [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) for a properly formatted README.
 
+### Repository requirements
+
+Now for some house keeping requirements. :broom:
+
+| Repository requirement | Description | Instructions |
+|:---:|:---:|:---:|
+| Repository description | A one sentence description of your AI quickstart. State "what" it is and "why" it's important. | In repository > Click gear in **About** section > Enter description > Save changes |
+| Quickstart status tag | Maintain a status tag showing publication status of your quickstart (see below for appropriate tags). | In repository > Click gear in **About** section > Enter status tag under **Topics** > Save changes | 
+| LICENSE file | All AI quickstarts must include an appropriate LICENSE file | *Additional guidance soon* | 
+
+*quick screenshot showing where to find the "repository details" section*. 
+![rh-ai-quickstart-about-section.png](docs/images/rh-ai-quickstart-about-section.png)
+
+
+#### AI quickstart status tags 
+| Status tag | Description & When to use | 
+|:---:|:---:| 
+| helper | Use this when the repository is not a quickstart, but serves another purpose in the organization, i.e. documentation repositories, templates, supporting repositories | 
+| work-in-progress | Use this while you're working on your quickstart. If it's not completed or published, it's WIP. |
+| completed | Use this status tag when you consider the quickstart complete, but not yet published |
+| published | Your quickstart is complete and published on docs.redhat.com/learn/ai-quickstarts | 
+| deprecated | Used when the quickstart is old and no longer maintained |
+
+
+
 ---
 
 ##  Join the organization
