@@ -203,17 +203,6 @@ Tags help users find your quickstart. Required for redhat.com publication.
 | **Product** | ✅ | OpenShift AI | The featured Red Hat product |
 | **Use case** | ⭕ Optional | Productivity | |
 
-### Status labels
-
-Add these GitHub labels to indicate your quickstart's status:
-
-- **`completed`** - Your quickstart is finished, tested, and ready to deploy
-- **`work-in-progress`** - Your quickstart is being built and not yet finished
-- **`published`** - Your quickstart is featured in the curated catalog on redhat.com
-- **`deprecated`** - Your quickstart is on its way out and no longer recommended
-
-This helps users know which quickstarts are ready to use when they are browsing!
-
 ### Industry tags
 
 Select ONE from this list:
