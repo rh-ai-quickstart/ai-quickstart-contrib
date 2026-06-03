@@ -29,16 +29,62 @@ This guide contains everything you need to create, contribute, and publish AI qu
 
 Before you build, understand what makes a great quickstart:
 
+### Quickstart Levels
 
-**Required:**
-- ✅ **Descriptive repository name** - Make it easy to find and understand
-- ✅ **README.md** - Must follow the [README specifications](#readme-specifications) below
+AI quickstarts have **three levels** of maturity, each with increasing requirements:
+
+| Level | Where it lives | Purpose |
+|:---:|---|---|
+| **Level 1: Community** | GitHub organization (`rh-ai-quickstart`) | Discoverable by the community, experimental, work-in-progress |
+| **Level 2: Published** | [docs.redhat.com/learn/ai-quickstarts](docs.redhat.com/learn/ai-quickstarts) | Curated, high-quality examples that tell compelling stories |
+| **Level 3: Integrated** | Partner/product/tool solution integration | Regularly tested, simple, robust examples, included with Red Hat products, bundles or partner solutions |
+
+**Start at Level 1**, get feedback, iterate, then advance to higher levels as your quickstart matures.
+
+---
+
+### Level 1: Community (GitHub Organization)
+
+**Required to join the GitHub organization:**
+- ✅ **Descriptive repository name** - Make it easy to find and understand the business use case 
+- ✅ **README.md** - Should follow the [README specifications](#readme-specifications) below
 - ✅ **About description** - Add a short description to your GitHub repo (Settings → About)
 - ✅ **License** - Add an appropriate open source license to your repository
 - ✅ **Images folder** - Put all screenshots/diagrams in `docs/images/`
-- ✅ **Content standards** - Follow Red Hat corporate standards (see [Publishing Guide](PUBLISHING.md))
+- ✅ **Status tag** - Mark your quickstart as `work-in-progress` or `completed` (see [tagging guide](#tag-your-quickstart))
 
 **Remember:** You aren't just documenting code, you're documenting the **use case**!
+
+---
+
+### Level 2: Published (redhat.com)
+
+**Additional requirements for publication on redhat.com:**
+- ✅ **README.md** - *Must* follow the [README specifications](#readme-specifications) below
+- ✅ **Red Hat content standards** - Follow Red Hat corporate content standards (see [Publishing Guide](PUBLISHING.md))
+- ✅ **Industry tag (README file)** - Required for catalog discoverability (see [industry tags](#industry-tags))
+- ✅ **Quality criteria** - Meets most best practices (see [table below](#what-makes-a-good-quickstart))
+- ✅ **Arcade or video** - Recommended for users without deployment environments
+- ✅ **Completeness** - Fully tested, documented, and ready for community use
+
+See the [Publishing Guide](PUBLISHING.md) for detailed requirements.
+
+---
+
+### Level 3: Integrated (Partner/Product)
+
+**Additional requirements for vendor certification or product integration:**
+- ✅ **All previous requirements** - Previous level requirements included
+- ✅ **Quality criteria** - Meets all best practices in [table below]($what-makes-a-good-quickstart)
+- ✅ **No admin permissions required** - Included in line above, but stating separately: has regular user permissions so anyone can deploy
+- ✅ **Strategic use case** - Must showcase industry workloads Red Hat wishes to pursue
+- ✅ **Strategic technology** - Must showcase technology advantageous for Red Hat
+- ✅ **CI/CD** - Regular, automated testing for regressions and clean deployments required
+- ✅ **CVE testing** - Scan your container images, provide updated images or provide ability to build images, when applicable 
+
+*These requirements are continuously updated to address new opportunities. They may change at any time without notice.*
+
+---
 
 ### What Makes a Good Quickstart?
 
@@ -47,6 +93,7 @@ Before you build, understand what makes a great quickstart:
 | Deployable by regular users with standard permissions | Only deployable by cluster admins |
 | Has an appealing user interface | Just deploys a component with no UI |
 | Demonstrates a real industry use case | Focuses only on technology, not the problem it solves |
+
 
 ### README Specifications
 
