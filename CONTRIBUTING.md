@@ -36,7 +36,7 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 | Level | Where it lives | Purpose |
 |:---:|---|---|
 | **Level 1: Community** | GitHub organization (`rh-ai-quickstart`) | Discoverable by the community, experimental, work-in-progress |
-| **Level 2: Published** | [docs.redhat.com/learn/ai-quickstarts](https://www.docs.redhat.com/learn/ai-quickstarts) | Curated, high-quality examples that tell compelling stories |
+| **Level 2: Published** | [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) | Curated, high-quality examples that tell compelling stories |
 | **Level 3: Integrated** | Partner/product/tool solution integration | Regularly tested, simple, robust examples, included with Red Hat products, bundles or partner solutions |
 
 **Start at Level 1**, get feedback, iterate, then advance to higher levels as your quickstart matures.
