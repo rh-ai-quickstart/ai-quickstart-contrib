@@ -26,7 +26,7 @@ Creating content that meets Red Hat's corporate standards ensures your quickstar
 Improper product naming is the most common reason for editorial delays. Accurate naming protects our trademarks and ensures a professional brand presence.
 
 * **Use the Official List:** Always cross-reference the [Official Red Hat Product Names List](https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1259317633#gid=1259317633) (OPL).
-* **The "First Mention" Rule:** Use the full product name with the appropriate trademark symbol (e.g., **Red Hat® OpenShift®**) on the first mention. Subsequent mentions can use approved short names (e.g., **OpenShift**). Always refer to the OPL for the latest information on short names.
+* **The "First Mention" Rule:** Use the full product name with the appropriate trademark symbol on the first mention _only_ (e.g., **Red Hat® OpenShift®**) on the first mention. Subsequent mentions can use approved short names (e.g., **OpenShift**). Always refer to the OPL for the latest information on short names.
 * **Abbreviations:** Ensure the product name is stylized correctly. If a trademark or registered mark is required, include it. Avoid unauthorized abbreviations like "RHAI" or "RAI." For more information, always refer to the OPL.
 
 ### The Content Toolbox
