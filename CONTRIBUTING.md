@@ -36,7 +36,7 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 | Level | Where it lives | Purpose |
 |:---:|---|---|
 | **Level 1: Community** | GitHub organization (`rh-ai-quickstart`) | Discoverable by the community, experimental, work-in-progress |
-| **Level 2: Published** | [docs.redhat.com/learn/ai-quickstarts](docs.redhat.com/learn/ai-quickstarts) | Curated, high-quality examples that tell compelling stories |
+| **Level 2: Published** | [docs.redhat.com/learn/ai-quickstarts](https://www.docs.redhat.com/learn/ai-quickstarts) | Curated, high-quality examples that tell compelling stories |
 | **Level 3: Integrated** | Partner/product/tool solution integration | Regularly tested, simple, robust examples, included with Red Hat products, bundles or partner solutions |
 
 **Start at Level 1**, get feedback, iterate, then advance to higher levels as your quickstart matures.
@@ -76,7 +76,7 @@ See the [Publishing Guide](PUBLISHING.md) for detailed requirements.
 
 **Additional requirements for vendor certification or product integration:**
 - ✅ **All previous requirements** - Previous level requirements included
-- ✅ **Quality criteria** - Meets all best practices in [table below]($what-makes-a-good-quickstart)
+- ✅ **Quality criteria** - Meets all best practices in [table below](#what-makes-a-good-quickstart)
 - ✅ **No admin permissions required** - Included in line above, but stating separately: has regular user permissions so anyone can deploy
 - ✅ **Strategic use case** - Must showcase industry workloads Red Hat wishes to pursue
 - ✅ **Strategic technology** - Must showcase technology advantageous for Red Hat
@@ -102,8 +102,8 @@ Your README must follow this structure for consistency and reusability:
 
 | Order | Section | Level | Required? | Key Criteria |
 |:---:|---|:---:|:---:|---|
-| 1 | **Quickstart title** | H1 | ✅ | Max 64 chars, action-focused (Deploy, Boost, Accelerate), describes the **use case** not just tech |
-| 2 | **Short description** | Text | ✅ | Max 160 chars, explains what users will learn/gain |
+| 1 | **Quickstart title** | H1 | ✅ | Max length: 64 chars, action-focused & starts with an action verb (Deploy, Boost, Accelerate), describes the **use case** not just tech |
+| 2 | **Short description** | Text | ✅ | Max length: 160 chars, explains what users will learn/gain |
 | 3 | **Table of contents** | H2 | 📝 Recommended | Standard markdown ToC |
 | 4 | **Detailed description** | H2 | ✅ | 2-3 paragraphs on use case and solution (not technical deep dive) |
 | 5 | **See it in action** | H3 | 📝 Recommended | Link to videos/Arcades for users without environments |
