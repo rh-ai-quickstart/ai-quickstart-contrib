@@ -47,13 +47,14 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 
 **Required to join the GitHub organization:**
 - ✅ **Descriptive repository name** - Make it easy to find and understand the business use case 
-- ✅ **README.md** - Should follow the [README specifications](#readme-specifications) below
+- ✅ **README.md** - Follow the [README specifications](#readme-specifications)
 - ✅ **About description** - Add a short description to your GitHub repo (Settings → About)
 - ✅ **License** - Add an appropriate open source license to your repository
 - ✅ **Images folder** - Put all screenshots/diagrams in `docs/images/`
 - ✅ **Status tag** - Mark your quickstart as `work-in-progress` or `completed` (see [tagging guide](#tag-your-quickstart))
+- ✅ **Clear business use case** - Show how open source AI can solve a concrete business problem, not just running a specific technology
 
-**Remember:** You aren't just documenting code, you're documenting the **use case**!
+**Remember:** You aren't just documenting code, you're documenting the **use case**! This is the starting level to reach in order to get into the github organisation. 
 
 ---
 
