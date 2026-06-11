@@ -87,6 +87,29 @@ git submodule add https://github.com/rh-ai-quickstart/INSERT-QUICKSTART-REPO-NAM
 7. PR will be reviewed and approved by the `publication-admin` team. Please be available to make changes or updates during the review
 
 
+### Pull Request Review (best-effort) SLA
+
+For timely reviews, `rh-ai-quickstart/@publication-admin` team will follow, to the best of our ability, the following "service level agreements": 
+
+**Review timeline:**
+1. **Automated review:** When you open a PR, an AI reviewer will review and compare your README file to the standards and requirements set in [this repository](https://www.github.com/rh-ai-quickstart/ai-quickstart-contrib)
+2. **Human review:** A member of the `rh-ai-quickstart/@publication-admin` team will aim to review, accept, reject and/or comment on your PR **within 7 days** of submission.
+3. **Contributor response:** If a human reviewer comments or requests changes, the contributor has 21 days to acknowledge or update the PR. 
+  * PRs with no contributor response after 21 days will be closed to keep the queue manageable.
+  * Closes PRs can be reopened at any time by adding a comment when you're ready to continue.
+
+**What this means for you:**
+* Monitor your PR for AI-generated feedback and address issues early.
+* If issues are addressed, update the submodule so human reviewers are up to date on your changes.
+* Respond/acknowledge human reviewer comments to avoid automatic closure.
+* If you need more time, just say so by leaving a comment on the PR to keep it active. 
+
+**What is not enforced?**
+* No escalations are enforced at this time should the PR SLA be breached. 
+* Human reviewers are repeatedly notified
+* If the SLA is breached, please contact the [@publication-admin](https://github.com/orgs/rh-ai-quickstart/teams/publication-admin) by commenting in your PR.
+
+
 ### Update an Existing Quickstart
 1. update your cloned or forked version of [ai-quickstart-pub](https://github.com/rh-ai-quicksart/ai-quickstart-pub) with `git pull`
 2. create a new branch 
