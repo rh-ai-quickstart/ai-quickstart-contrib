@@ -77,7 +77,7 @@ See the [Publishing Guide](PUBLISHING.md) for detailed requirements.
 **Additional requirements for vendor certification or product integration:**
 - ✅ **All previous requirements** - Previous level requirements included
 - ✅ **Quality criteria** - Meets all best practices in [table below](#what-makes-a-good-quickstart)
-- ✅ **No admin permissions required** - Included in line above, but stating separately: has regular user permissions so anyone can deploy
+- ✅ **No *cluster* admin permissions required** - Included in line above, but stating separately: has regular user permissions so anyone can deploy
 - ✅ **Strategic use case** - Must showcase industry workloads Red Hat wishes to pursue
 - ✅ **Strategic technology** - Must showcase technology advantageous for Red Hat
 - ✅ **CI/CD** - Regular, automated testing for regressions and clean deployments required
