@@ -25,7 +25,7 @@ This guide contains everything you need to create, contribute, and publish AI qu
 
 ---
 
-##  Requirements
+## Requirements
 
 Before you build, understand what makes a great quickstart:
 
@@ -47,7 +47,7 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 
 **Required to join the GitHub organization:**
 - ✅ **Descriptive repository name** - Make it easy to find and understand the business use case 
-- ✅ **README.md** - Follow the [README specifications](#readme-specifications)
+- ✅ **README.md** - Follow the [README structure requirements](#readme-structure-requirements)
 - ✅ **About description** - Add a short description to your GitHub repo (Settings → About)
 - ✅ **License** - Add an appropriate open source license to your repository
 - ✅ **Images folder** - Put all screenshots/diagrams in `docs/images/`
@@ -94,7 +94,7 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 | Demonstrates a real industry use case | Focuses only on technology, not the problem it solves |
 
 
-### README Structure Requirements 
+### README structure requirements
 
 Your README must follow this structure for consistency and reusability:
 
@@ -236,7 +236,7 @@ Already have a quickstart? Two ways to bring it into the organization:
 
 ---
 
-##  Tag your quickstart
+## Tag your quickstart
 
 Tags help users find your quickstart. Required for redhat.com publication.
 

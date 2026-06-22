@@ -19,7 +19,7 @@ This guide covers requirements and process to publish your quickstart to the [AI
 
 ---
 
-## Before you publish: quality standards 
+## Before you publish: quality standards
 
 Creating content that meets Red Hat's corporate standards ensures your quickstart publishes faster and protects Red Hat legally. Following these practices makes your content compliant, accessible, and optimized for search.
 
@@ -61,11 +61,11 @@ To ensure your quickstart is discoverable and legally sound, follow these requir
 
 ---
 
-### README quality standards 
+### README quality standards
 
 #### Required content completeness
 
-Your README must include all required sections from the [README structure requirements](CONTRIBUTING.md#readme-specifications):
+Your README must include all required sections from the [README structure requirements](CONTRIBUTING.md#readme-structure-requirements):
 - AI quickstart title (action-focused, starts with action verb, describes the business solution, <64 chars) 
 - Short description (expand on business solution, <160 chars)
 - Detailed description (2-3 paragraphs) 
@@ -75,7 +75,7 @@ Your README must include all required sections from the [README structure requir
 - Delete instructions 
 - Tags (approved Red Hat industry required) 
 
-Missing any required section from the [README structure requirements guide](CONTRIBUTING.md#readme-specifications) is a **Blocker**.
+Missing any required section from the [README structure requirements guide](CONTRIBUTING.md#readme-structure-requirements) is a **Blocker**.
 
 #### Review severity levels 
 
@@ -87,7 +87,7 @@ Issues with your README file are classified by severity:
 - **Security vulnerabilities:** Hard coded credentials, API keys, passwords in examples, or exposed secrets 
 - **Broken critical paths:** Installation links return 404, deployment instructions are missing steps, or required actions are abset
 - **Impossible deployment:** Requires manual admin approval, emailing for license files, or access to resources not publicly available 
-- **Missing required README component:** README is missing any required section from [README structure requirements](CONTRIBUTING.md#readme-specifications)
+- **Missing required README component:** README is missing any required section from [README structure requirements](CONTRIBUTING.md#readme-structure-requirements)
 - **Exceeding character limits:** README title and short description **MUST** be shorter than maximum char length
 - **Broken links:** broken links to diagrams, internal or external links
 - **Inappropriate Tagging:** Industry tag must reference [Red Hat approved industry tag](CONTRIBUTING.md#industry-tags)
@@ -190,10 +190,10 @@ When uncertain which severity level to assign, use these decision rules:
 ---
 ## The Publishing Process
 
-### Prerequisites 
+### Prerequisites
 
 1. quickstart repository is in the [AI quickstart GitHub organization](https://github.com/rh-ai-quickstart)
-2. quickstart meets [repository requirements](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/blob/main/CONTRIBUTING.md#what-are-the-repository-requirements)
+2. quickstart meets [repository requirements](CONTRIBUTING.md#repository-requirements)
 
 ### Submit for publication
 
