@@ -61,14 +61,12 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 ### Level 2: Published (redhat.com)
 
 **Additional requirements for publication on redhat.com:**
-- ✅ **README.md** - *Must* follow the [README specifications](#readme-specifications) below
-- ✅ **Red Hat content standards** - Follow Red Hat corporate content standards (see [Publishing Guide](PUBLISHING.md))
+- ✅ **README.md** - *Must* meet the publication standards (see [README quality standards](PUBLISHING.md#readme-quality-standards))
+- ✅ **Red Hat content standards** - Follow [Publishing Guide](PUBLISHING.md)
 - ✅ **Industry tag (README file)** - Required for catalog discoverability (see [industry tags](#industry-tags))
-- ✅ **Quality criteria** - Meets most best practices (see [table below](#what-makes-a-good-quickstart))
-- ✅ **Arcade or video** - Recommended for users without deployment environments
 - ✅ **Completeness** - Fully tested, documented, and ready for community use
 
-See the [Publishing Guide](PUBLISHING.md) for detailed requirements.
+**Ready to publish?** See the [Publishing Guide](PUBLISHING.md).
 
 ---
 
@@ -96,7 +94,7 @@ See the [Publishing Guide](PUBLISHING.md) for detailed requirements.
 | Demonstrates a real industry use case | Focuses only on technology, not the problem it solves |
 
 
-### README Specifications
+### README Structure Requirements 
 
 Your README must follow this structure for consistency and reusability:
 
@@ -271,16 +269,21 @@ Select ONE from this list:
 - Utilities
 - Wholesale trade
 
+### Required tag format
+
+Tags must be a bulleted list, with bold key & normal-text value, for example:
+
+- **Industry:** Banking and securities 
+- **Product:** Red Hat AI Enterprise
+
+
 ---
 
 ## 📤 Publish to redhat.com
 
 Your quickstart is discoverable on GitHub immediately. To get featured on the [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) on redhat.com:
 
-**See the [Publishing Guide](PUBLISHING.md)** for:
-- Content quality requirements
-- Red Hat branding standards
-- Technical publishing workflow
+**See the [Publishing Guide](PUBLISHING.md)** for complete requirements and workflow. 
 
 **Note:** Not all quickstarts qualify for redhat.com. The catalog features curated, high-quality examples that tell compelling stories.
 
