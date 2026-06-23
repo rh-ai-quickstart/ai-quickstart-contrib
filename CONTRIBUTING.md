@@ -90,7 +90,7 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 | ✅ Best Practices | ❌ Common Pitfalls |
 |---|---|
 | Deployable by regular users with standard permissions | Only deployable by cluster admins |
-| Has an appealing user interface | Just deploys a component with no UI |
+| Has an appealing user interface | Just deploys a component with no UI, or is a collection of notebooks |
 | Demonstrates a real industry use case | Focuses only on technology, not the problem it solves |
 
 
