@@ -78,6 +78,8 @@ Your README must include all required sections from the [README structure requir
 - Delete instructions 
 - Tags in dedicated "Tags" section at bottom of README 
 - Industry tag is in approved Industry list
+- README describes a quickstart consistent with "Best practices" in the [What Makes a Good Quickstart](CONTRIBUTING.md#what-makes-a-good-quickstart) section
+- README DOES NOT have "Common Pitfalls" described in [What Makes a Good Quickstart](CONTRIBUTING.md#what-makes-a-good-quickstart) 
 
 Missing any required section from the [README structure requirements guide](CONTRIBUTING.md#readme-structure-requirements) is a **Blocker**.
 
