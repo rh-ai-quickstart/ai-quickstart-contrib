@@ -88,10 +88,12 @@ Issues with your README file are classified by severity:
 - **Broken critical paths:** Installation links return 404, deployment instructions are missing steps, or required actions are abset
 - **Impossible deployment:** Requires manual admin approval, emailing for license files, or access to resources not publicly available 
 - **Missing required README component:** README is missing any required section from [README structure requirements](CONTRIBUTING.md#readme-structure-requirements)
-- **Exceeding character limits:** README title and short description **MUST** be shorter than maximum char length
-- **Broken links:** broken links to diagrams, internal or external links
+- **Exceeding H1 title character limits:** The H1 README title **MUST** be shorter than maximum character length defined in [README structure requirements](CONTRIBUTING.md#readme-structure-requirements)
+- **Exceeding short description character limit:** The short description, normal text immediately following the H1 title in the README **MUST** be shorter than maximum char length defined in [README structure requirements](CONTRIBUTING.md#readme-structure-requirements)
+- **Broken README links:** broken links to diagrams, internal or external links in the README file
 - **Inappropriate Tagging:** Industry tag must reference [Red Hat approved industry tag](CONTRIBUTING.md#industry-tags)
 - **Tag format:** Tags must be in dedicated section at the bottom of the README, in a bulleted list with key and value pairs with key in bold and value in normal text
+- **Appropriate industry tag:** Industry indicated in the `* **Indsustry:** [INDUSTRY]` bullet must be listed in the [Industry tags](CONTRIBUTING.md#industry-tags) section
 
 **Examples:**
 - ❌ Hardcoded password: `ADMIN_PASSWORD=secret123` in deployment instructions
