@@ -66,14 +66,18 @@ To ensure your quickstart is discoverable and legally sound, follow these requir
 #### Required content completeness
 
 Your README must include all required sections from the [README structure requirements](CONTRIBUTING.md#readme-structure-requirements):
-- AI quickstart title (action-focused, starts with action verb, describes the business solution, <64 chars) 
-- Short description (expand on business solution, <160 chars)
-- Detailed description (2-3 paragraphs) 
-- Architecture diagrams 
+- Action focused AI quickstart title starting with an action verb 
+- H1 title that describes the business solution 
+- H1 title must be less than 64 characters 
+- Short description expands on business solution
+- Short description is fewer than 160 characters
+- Detailed description (2-3 paragraphs) offering details on business solution
+- Architecture diagrams images  
 - Requirements (hardware & software - be specific!) 
 - Deploy instructions 
 - Delete instructions 
-- Tags (approved Red Hat industry required) 
+- Tags in dedicated "Tags" section at bottom of README 
+- Industry tag is in approved Industry list
 
 Missing any required section from the [README structure requirements guide](CONTRIBUTING.md#readme-structure-requirements) is a **Blocker**.
 
