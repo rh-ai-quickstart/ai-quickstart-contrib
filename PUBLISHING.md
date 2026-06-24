@@ -100,6 +100,7 @@ Issues with your README file are classified by severity:
 - **Inappropriate Tagging:** Industry tag must reference [Red Hat approved industry tag](CONTRIBUTING.md#industry-tags)
 - **Tag format:** Tags must be in dedicated section at the bottom of the README, in a bulleted list with key and value pairs with key in bold and value in normal text
 - **Appropriate industry tag:** Industry indicated in the `* **Indsustry:** [INDUSTRY]` bullet must be listed in the [Industry tags](CONTRIBUTING.md#industry-tags) section
+- **Meets good quickstart criteria:** Is consistent with "Best practices" and does not have "Common Pitfalls" described in [What Makes a Good Quickstart](CONTRIBUTING.md#what-makes-a-good-quickstart)
 
 **Examples:**
 - ❌ Hardcoded password: `ADMIN_PASSWORD=secret123` in deployment instructions
