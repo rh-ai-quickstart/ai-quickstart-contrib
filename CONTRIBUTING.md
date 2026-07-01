@@ -93,6 +93,19 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 | Includes an application with an appealing user interface | Just deploys a component with no UI, or is a collection of notebooks |
 | Demonstrates a real industry use case | Focuses only on technology, not the problem it solves |
 
+### AI Transparency in User Interfaces
+
+When building quickstarts with AI-powered features, users must clearly understand when and how AI is being used.
+
+| ✅ Best Practices | ❌ Common Pitfalls |
+|---|---|
+| Clearly label AI-generated content in the UI (e.g., badges, icons, or "AI-generated" labels) | AI usage is hidden or only mentioned in documentation |
+| Include visible disclaimers prompting users to verify AI outputs (e.g., "AI-generated. Verify accuracy before use.") | Disclaimers only appear once on first use or are buried in settings |
+| Keep AI usage indicators persistent and visible throughout the user experience | One-time popup that users dismiss and never see again |
+| Position disclaimers near AI-generated content, not just in footer or settings | Generic terms of service without context-specific warnings |
+| Use clear language about AI limitations relevant to the use case (e.g., "May produce incorrect financial data" for finance apps) | Vague warnings like "AI may make mistakes" without specifics |
+
+**Key principle:** Users should always know when they're interacting with AI-generated content, and reminders to verify that content should be persistent, not dismissible.
 
 ### README structure requirements
 
