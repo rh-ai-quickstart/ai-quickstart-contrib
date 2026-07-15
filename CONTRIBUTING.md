@@ -92,6 +92,7 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 | Deployable by regular users with standard permissions | Only deployable by cluster admins |
 | Includes an application with an appealing user interface | Just deploys a component with no UI, or is a collection of notebooks |
 | Demonstrates a real industry use case | Focuses only on technology, not the problem it solves |
+| Uses an open weight model locally or hosted | Uses proprietary hosted model API |
 
 ### AI Transparency in User Interfaces
 
