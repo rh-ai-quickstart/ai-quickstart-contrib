@@ -214,15 +214,15 @@ Using gitflow workflow:
 # update branch name first
 git checkout -b [INSERT BRANCH NAME HERE] 
 ```
-4. Add a _submodule_ to the `quickstart/` folder using this command. Be sure to customize it first!
+4. Add a _submodule_ to the `quickstart/` folder using this command (update with your quickstart repo name first).
 ```
 # assuming reference to main:latest
 # update your repo details
 git submodule add https://github.com/rh-ai-quickstart/INSERT-QUICKSTART-REPO-NAME.git quickstart/INSERT-QUICKSTART-REPO-NAME
 ```
+> NOTE: Please use the quickstart repo name in both arguments. They **must** match. For example, `git submodule add https://github.com/rh-ai-quickstart/hello-world.git quickstart/hello-world`. Something like `quickstart/world-greating` will fail. 
 5. Next, commit the change: 
 ```
-
 git add quickstart/INSERT-QUICKSTART-REPO-NAME
 
 # don't have to follow this commit message exactly, but use something descriptive please
