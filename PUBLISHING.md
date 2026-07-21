@@ -207,22 +207,30 @@ When uncertain which severity level to assign, use these decision rules:
 ### Submit for publication
 
 Using gitflow workflow: 
-1. fork or clone [ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub)
-2. branch from main with a _descriptive_ branch name: 
+1. Fork [ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub) to your personal GH profile
+2. Clone your forked repo to your local machine and `cd` to the directory
+3. Create a new branch from main with a _descriptive_ branch name: 
 ```
 # update branch name first
 git checkout -b [INSERT BRANCH NAME HERE] 
 ```
-3. use `git submodule` to add your quickstart to the `quickstart/` folder
+4. Add a _submodule_ to the `quickstart/` folder using this command. Be sure to customize it first!
 ```
 # assuming reference to main:latest
 # update your repo details
 git submodule add https://github.com/rh-ai-quickstart/INSERT-QUICKSTART-REPO-NAME.git quickstart/INSERT-QUICKSTART-REPO-NAME
 ```
-4. `git add`, `git commit`
-5. `git push` to origin
-6. open a pull request to [ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub) main branch
-7. PR will be reviewed and approved by the `publication-admin` team. Please be available to make changes or updates during the review
+5. Next, commit the change: 
+```
+
+git add quickstart/INSERT-QUICKSTART-REPO-NAME
+
+# don't have to follow this commit message exactly, but use something descriptive please
+git commit -m "init: INSERT-QUICKSTART-NAME"
+```
+6. Push commit to your forked repository `git push -u origin INSERT-QUICKSTART-BRANCH-NAME`
+7. Open a pull request to the organization's [ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub) main branch
+8. PR will be reviewed and approved by the `publication-admin` team. Please be available to make changes or updates during the review.
 
 ### The review process
 
