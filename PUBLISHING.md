@@ -220,7 +220,7 @@ git checkout -b [INSERT BRANCH NAME HERE]
 # update your repo details
 git submodule add https://github.com/rh-ai-quickstart/INSERT-QUICKSTART-REPO-NAME.git quickstart/INSERT-QUICKSTART-REPO-NAME
 ```
-> NOTE: Please use the quickstart repo name in both arguments. They **must** match. For example, `git submodule add https://github.com/rh-ai-quickstart/hello-world.git quickstart/hello-world`. Something like `quickstart/world-greating` will fail. 
+> NOTE: Please use the quickstart repo name in both arguments. They **must** match. For example, `git submodule add https://github.com/rh-ai-quickstart/hello-world.git quickstart/hello-world`. Something like `quickstart/world-greeting` will fail. 
 5. Next, commit the change: 
 ```
 git add quickstart/INSERT-QUICKSTART-REPO-NAME
