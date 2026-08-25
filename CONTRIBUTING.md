@@ -19,9 +19,10 @@ This guide contains everything you need to create, contribute, and publish AI qu
 **Ready to start building?**
 
 1. [Join the organization](https://github.com/rh-ai-quickstart/ai-quickstart-contrib/issues/new/choose) (request membership)
-2. [Create your quickstart](https://github.com/rh-ai-quickstart) (use the template)
+2. [Create your quickstart](#create-your-quickstart) (use the template)
 3. Follow the [requirements](#requirements)
 4. [Publish to redhat.com](PUBLISHING.md) (optional)
+5. [Share your work](#share-your-work) (optional)
 
 ---
 
@@ -307,6 +308,7 @@ Your quickstart is discoverable on GitHub immediately. To get featured on the [A
 
 **For Red Hatters:** The AI BU runs an OpenShift AI cluster you can use to deploy and demo your quickstart internally. Reach out through internal channels.
 
+Red Hat's Demo Platform team can help you add your quickstart as a catalog item to run within RHDP. Reach out through internal channels. **NOTE:** Do not add `showroom` repos to [rh-ai-quickstart](https://github.com/rh-ai-quickstart), use the [quickstart showroom organization](https://github.com/rh-ai-qs-showroom) instead.
 ---
 
 ##  Maintenance responsibility
