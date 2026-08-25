@@ -309,6 +309,7 @@ Your quickstart is discoverable on GitHub immediately. To get featured on the [A
 **For Red Hatters:** The AI BU runs an OpenShift AI cluster you can use to deploy and demo your quickstart internally. Reach out through internal channels.
 
 Red Hat's Demo Platform team can help you add your quickstart as a catalog item to run within RHDP. Reach out through internal channels. **NOTE:** Do not add `showroom` repos to [rh-ai-quickstart](https://github.com/rh-ai-quickstart), use the [quickstart showroom organization](https://github.com/rh-ai-qs-showroom) instead.
+
 ---
 
 ##  Maintenance responsibility
