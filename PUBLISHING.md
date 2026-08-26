@@ -325,7 +325,7 @@ cd ../../ # OR
 ```
 git add quickstart/[INSERT-quickstart-repo-name-here] # E.G - git add quickstart/llm-cpu-serving
 git commit -m "Updated quickstart to latest commit"
-git push # git push -u origin [INSERT BRANCH NAME HERE]
+git push -u origin [INSERT BRANCH NAME HERE]
 ```
 8. Open a new Pull Request to [rh-ai-quickstart/ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub) 
 
