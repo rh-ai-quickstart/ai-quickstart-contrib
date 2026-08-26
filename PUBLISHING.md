@@ -277,22 +277,29 @@ The review process ensures consistent quality across all published quickstarts w
 ![Screenshot of sync fork button in GitHub UI](docs/images/rh-ai-quickstart-sync-fork.png)
 2. Open your command line, change to your local clone of your forked version of [ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub), update main
 ```
-# This is where I keep it, yours will be different. Update QS_PATH or cd to appropriate location
+# This is where I keep it, your path may be different. Update QS_PATH or cd to appropriate location
 export QS_PATH=~/projects/rh-ai-quickstarts/
 cd $QS_PATH/ai-quickstart-pub
 git checkout main 
 git pull 
 ```
-3. create a new branch 
-```
-git checkout -b [INSERT BRANCH NAME HERE]
-```
-3. Check status of your quickstart's submodule (using `llm-cpu-serving` as an example), directory **should not be empty**:
+3. Next, let's update or create a branch to update the submodule. Pick one of the following options:
+  1. If you have an existing branch (from the original submission) you want to re-use, first check it out and merge with main. For example:
+  ```
+  git checkout [INSERT ORIGINAL BRANCH NAME HERE] # switch to existing branch
+  git merge main # merge latest changes on main with your branch
+  # resolve conflicts, if applicable
+  ```
+  2. Create a new branch from `main`
+  ```
+  git checkout -b [INSERT NEW BRANCH NAME HERE] # new branch already synced with main 
+  ```
+4. Check status of your quickstart's submodule (using `llm-cpu-serving` as an example), directory **should not be empty**:
 ```
 ls quickstart/[INSERT-quickstart-repo-name-here] # should return directory contents
 ```
-  1. If directory is **NOT empty**, go to step 4.
-  2. If directory **IS empty**, we need to update the submodule first. From, the `$QS_PATH/ai-quickstart-pub` directory
+  1. If directory is **NOT empty**, go to step 5.
+  2. If directory **IS empty**, we need to update the submodule first. From the `$QS_PATH/ai-quickstart-pub` directory:
   ```
   git submodule update --init quickstart/[INSERT-quickstart-repo-name-here]
   ls quickstart/[INSERT-quickstart-repo-name-here]
@@ -304,21 +311,21 @@ ls quickstart/[INSERT-quickstart-repo-name-here] # should return directory conte
   # docs  helm  README.md
   ```
 
-4. Change directories to your quickstart submodule and `git pull` to update to main:latest
+5. Change directories to your quickstart submodule and `git pull` to update to main:latest
 ```
 cd quickstart/[INSERT-quickstart-repo-name-here] # cd quickstart/llm-cpu-serving
 git pull
 ```
-5. Your submodule no longer points to a previous commit. It points to main latest now. Change back to your `ai-quickstart-pub` root directory
+6. Your submodule no longer points to a previous commit. It points to main latest now. Change back to your `ai-quickstart-pub` root directory
 ```
 cd ../../ # OR 
 # cd $QS_PATH/ai-quickstart-pub
 ```
-6. Next, we stage for commit, commit with message and push to personal github 
+7. Next, we stage for commit, commit with message and push to personal github 
 ```
 git add quickstart/[INSERT-quickstart-repo-name-here] # E.G - git add quickstart/llm-cpu-serving
 git commit -m "Updated quickstart to latest commit"
 git push # git push -u origin [INSERT BRANCH NAME HERE]
 ```
-7. Open a new Pull Request to [rh-ai-quickstart/ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub) 
+8. Open a new Pull Request to [rh-ai-quickstart/ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub) 
 
