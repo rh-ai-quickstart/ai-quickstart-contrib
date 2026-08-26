@@ -16,6 +16,7 @@ This guide covers requirements and process to publish your quickstart to the [AI
   * [Submit for publication](#submit-for-publication)
   * [The review process](#the-review-process)
   * [Update an existing quickstart](#update-an-existing-quickstart)
+  * [Update an open Pull Request](#update-an-open-pull-request)
 
 ---
 
@@ -271,20 +272,118 @@ The `publication-admin` team performs a final review for:
 The review process ensures consistent quality across all published quickstarts while helping you improve your content.
 
 ### Update an existing quickstart
-1. update your cloned or forked version of [ai-quickstart-pub](https://github.com/rh-ai-quicksart/ai-quickstart-pub) with `git pull`
-2. create a new branch 
+
+This section documents how to update a _previously_ published AI quickstart. That is, a quickstart with and accepted and closed Pull Request. In this case, you will open a new Pull Request to update. Please see the [Update an open Pull Request](#update-an-open-pull-request) section to update open publication Pull Requests.
+
+1. Update your forked `ai-quickstart-pub` repo since it might be out of date. Sync the fork:
+![Screenshot of sync fork button in GitHub UI](docs/images/rh-ai-quickstart-sync-fork.png)
+2. Open your command line, change to your local clone of your forked version of [ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub), update main
 ```
-git checkout -b [INSERT BRANCH NAME HERE]
+# This is where I keep it, your path may be different. Update QS_PATH or cd to appropriate location
+export QS_PATH=~/projects/rh-ai-quickstarts/
+cd $QS_PATH/ai-quickstart-pub
+git checkout main 
+git pull 
 ```
-3. change directories to your quickstart. Using `llm-cpu-serving` as an example: 
+3. Next, let's update or create a branch to update the submodule. Pick one of the following options:
+  1. If you have an existing branch (from the original submission) you want to re-use, first check it out and merge with main. For example:
+  ```
+  git checkout [INSERT ORIGINAL BRANCH NAME HERE] # switch to existing branch
+  git merge main # merge latest changes on main with your branch
+  # resolve conflicts, if applicable
+  ```
+  2. Create a new branch from `main`
+  ```
+  git checkout -b [INSERT NEW BRANCH NAME HERE] # new branch already synced with main 
+  ```
+4. Check status of your quickstart's submodule (using `llm-cpu-serving` as an example), directory **should not be empty**:
 ```
-cd quickstart/llm-cpu-serving
+ls quickstart/[INSERT-quickstart-repo-name-here] # should return directory contents
+```
+  1. If directory is **NOT empty**, go to step 5.
+  2. If directory **IS empty**, we need to update the submodule first. From the `$QS_PATH/ai-quickstart-pub` directory:
+  ```
+  git submodule update --init quickstart/[INSERT-quickstart-repo-name-here]
+  ls quickstart/[INSERT-quickstart-repo-name-here]
+
+  # using llm-cpu-serving as an example
+  # $ ls quickstart/llm-cpu-serving
+  # $ git submodule update --init quickstart/llm-cpu-serving
+  # $ ls quickstart/llm-cpu-serving
+  # docs  helm  README.md
+  ```
+
+5. Change directories to your quickstart submodule and `git pull` to update to main:latest
+```
+cd quickstart/[INSERT-quickstart-repo-name-here] # cd quickstart/llm-cpu-serving
 git pull
 ```
-4. change directories 
+6. Your submodule no longer points to a previous commit. It points to main latest now. Change back to your `ai-quickstart-pub` root directory
 ```
-cd ../../
+cd ../../ # OR 
+# cd $QS_PATH/ai-quickstart-pub
 ```
-5. `git add`, `git commit`, `git push` 
-6. open a new PR 
+7. Next, we stage for commit, commit with message and push to personal github 
+```
+git add quickstart/[INSERT-quickstart-repo-name-here] # E.G - git add quickstart/llm-cpu-serving
+git commit -m "Updated quickstart to latest commit"
+git push -u origin [INSERT BRANCH NAME HERE]
+```
+8. Open a new Pull Request to [rh-ai-quickstart/ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub) 
 
+
+### Update an open Pull Request
+
+This section describes the update process for _open_ publication Pull Requests. The most common scenarios are: 
+* You want to make changes to a PR you recently submitted for publication. The PR has _not_ been accepted yet. 
+* You are making requested changes from the AI or human review processes before the PR can be accepted.
+* You previously published a quickstart, made changes, submitted a new PR but want to make new changes while the PR is still open.
+
+> **REMEMBER:** Pull Requests opened in `ai-quickstart-pub` are _submodules_. They are links to specific commits in your quickstart repo. In general, this is a 2 step process: 1) update your quickstart and 2) update the submodule in your open PR to point to the recent changes. We will cover this below. 
+
+**Steps:** 
+0. Assuming the following is true: you have an open Pull Request in [rh-ai-quickstart/ai-quickstart-pub](https://github.com/rh-ai-quickstart/ai-quickstart-pub/pulls) because you followed the docs above, AND you already updated and committed changes to your quickstart
+1. Change directories to your forked `ai-quickstart-pub`
+```
+export QS_PATH=~/projects/rh-ai-quickstarts/ # Update QS_PATH or cd to appropriate location
+cd $QS_PATH/ai-quickstart-pub                # change directories to your forked ai-quickstart-pub
+```
+2. Use the branch you used for your open PR
+```
+git branch                             # shows you what branch your on, skip the next if already on the right branch
+git checkout [INSERT BRANCH NAME HERE] # run this command if you need to switch branches  
+```
+3. Check status of your quickstart's submodule (using `llm-cpu-serving` as an example), directory **should not be empty**:
+```
+ls quickstart/[INSERT-quickstart-repo-name-here] # should return directory contents
+```
+  1. If directory is **NOT empty**, go to step 4.
+  2. If directory **IS empty**, we need to update the submodule first. From the `$QS_PATH/ai-quickstart-pub` directory:
+  ```
+  git submodule update --init quickstart/[INSERT-quickstart-repo-name-here]
+  ls quickstart/[INSERT-quickstart-repo-name-here]
+
+  # using llm-cpu-serving as an example
+  # $ ls quickstart/llm-cpu-serving
+  # $ git submodule update --init quickstart/llm-cpu-serving
+  # $ ls quickstart/llm-cpu-serving
+  # docs  helm  README.md
+  ```
+
+4. Change directories to your quickstart submodule and `git pull` to update to main:latest
+```
+cd quickstart/[INSERT-quickstart-repo-name-here] # E.G. - cd quickstart/llm-cpu-serving
+git pull
+```
+6. Your submodule no longer points to a previous commit. It points to main latest now. Change back to your `ai-quickstart-pub` root directory
+```
+cd ../../ # OR 
+# cd $QS_PATH/ai-quickstart-pub
+```
+7. Next, we stage for commit, commit with message and push to personal github 
+```
+git add quickstart/[INSERT-quickstart-repo-name-here] # E.G - git add quickstart/llm-cpu-serving
+git commit -m "Updated quickstart to latest commit"
+git push -u origin [INSERT BRANCH NAME HERE]
+8. Open your PR in [rh-ai-quickstart/ai-quicktart-pub](http://github.com/rh-ai-quicktart/ai-quicktart-pub/pulls) and confirm most recent commit is present
+9. Reach out through internal channels for assistance
