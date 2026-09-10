@@ -36,10 +36,11 @@ When a quickstart fails to meet maintenance standards (defined below), it moves 
 
 ### Stage 3: Archival 
 - **Trigger:** Deprecation timeline expired without resolution 
-- **Action:** Repository is archived (read-only), removed from promotional materials, or moved to a separate GitHub organization if needed
+- **Action:** Repository is archived (public for published quickstarts, privately for unpublished), removed from promotional materials, or moved to a separate GitHub organization if needed
 - **Goal:** Preserve history and credit while protecting customer experience
 - **Timeline:** Indefinite 
 - **Revival:** Archived quickstarts can be restored if a maintainer commits to ongoing support
+- **Voluntary archival:** Contributors may choose to archive a quickstart on their own for any reason. Contact the administration team for assistance. 
 
 
 ## Maintenance standards and action triggers 
@@ -52,10 +53,8 @@ The following conditions trigger a notification of maintenance required:
 
 | Trigger | Criteria | Maintainer action | 
 |----|----|----|
-| **Inactivity** | quickstart has had zero commits in 6 months | Review for updates, freshness, accuracy, etc. Create plan to publish or deprecate | 
+| **Inactivity** | 0 commits in 6 months OR 3+ month old open issues OR 3+ month old Pull Requests | Review for updates, freshness, accuracy, etc. Create plan to publish or deprecate | 
 | **Product versions** | quickstart references End of Life (EOL) Red Hat products or product versions | Update to supported versions | 
-| **Open issues** | quickstart has open unaddressed issues _greater than_ 3 months old | Address issues, update accordingly | 
-| **No active maintainer** | Maintainer no longer maintaining quickstart for any reason | Find new maintainer or deprecate within notified timeline | 
 | **Does not meet quickstart requirements** | quickstart does not meet requirements defined in [documentation](CONTRIBUTING.md) | Update, deprecate or transfer accordingly | 
 
 
