@@ -53,7 +53,7 @@ The following conditions trigger a notification of maintenance required:
 
 | Trigger | Criteria | Maintainer action | 
 |----|----|----|
-| **Inactivity** | 0 commits in 6 months OR 3+ month old open issues OR 3+ month old Pull Requests | Review for updates, freshness, accuracy, etc. Create plan to publish or deprecate | 
+| **Inactivity** | 6+ month old open issues OR Pull Requests | Review for updates, freshness, accuracy, etc. Create plan to publish or deprecate | 
 | **Product versions** | quickstart references End of Life (EOL) Red Hat products or product versions | Update to supported versions | 
 | **Does not meet quickstart requirements** | quickstart does not meet requirements defined in [documentation](CONTRIBUTING.md) | Update, deprecate or transfer accordingly | 
 
