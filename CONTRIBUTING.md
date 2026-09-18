@@ -46,6 +46,8 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 
 ### Level 1: Community (GitHub Organization)
 
+> **Automated checks:** Most requirements below are checked quarterly (or on-demand). Missing items trigger a 60-day maintenance notification. See [MAINTENANCE.md](MAINTENANCE.md) for details.
+
 **Required to join the GitHub organization:**
 - ✅ **Descriptive repository name** - Make it easy to find and understand the business use case 
 - ✅ **README.md** - Follow the [README structure requirements](#readme-structure-requirements)
@@ -113,6 +115,8 @@ When building quickstarts with AI-powered features, users must clearly understan
 
 Your README must follow this structure for consistency and reusability:
 
+> **Note:** Sections marked H3 are subsections of the preceding H2 section.
+
 | Order | Section | Level | Required? | Key Criteria |
 |:---:|---|:---:|:---:|---|
 | 1 | **Quickstart title** | H1 | ✅ | Max length: 64 chars, action-focused & starts with an action verb (Deploy, Boost, Accelerate), describes the **use case** not just tech |
@@ -128,9 +132,53 @@ Your README must follow this structure for consistency and reusability:
 | 11 | **Delete** | H3 | ✅ | How to cleanly remove when finished |
 | 12 | **Reference** | H2 | 📝 Recommended | External links, blogs, documentation |
 | 13 | **Optional sections** | H2 | ⭕ Optional | Advanced deployment, technical deep dive, guided experience |
-| 14 | **Tags** | H2 | ✅ | Industry tag required (see [tagging guide](#tag-your-quickstart)) |
+| 14 | **Tags** | H2 | ✅ | Industry tag required ([format requirements](#required-tag-format-automated-check), [industry list](#industry-tags)) |
 
 📖 **Example:** See [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) for a properly formatted README.
+
+#### Product version format
+
+Red Hat product versions are checked quarterly (or on-demand) against lifecycle data. Use specific version numbers:
+
+**✅ Correct format:**
+- OpenShift AI 2.16
+- OpenShift Container Platform 4.16
+- AI Inference Server 1.2
+
+**❌ Avoid (cannot be parsed):**
+- OpenShift AI (no version)
+- OpenShift AI 3.X+ (vague version)
+- OpenShift 4.14-4.16 (version ranges)
+
+**Products checked:** [OpenShift](https://access.redhat.com/support/policy/updates/openshift), [OpenShift AI](https://access.redhat.com/support/policy/updates/rhoai-sm/lifecycle), [AI Inference Server](https://access.redhat.com/support/policy/updates/rhaii)
+
+#### Product version compatibility
+
+RHOAI + OCP versions must be compatible. For example, RHOAI 3.5 requires OCP 4.19+ (RHOAI 3.5 and OCP 4.16 are incompatible).
+
+See [RHOAI compatibility matrix](https://access.redhat.com/support/policy/updates/rhoai-sm/lifecycle#dates) for valid combinations.
+
+#### Required tag format (Automated Check)
+
+Tags must follow this exact format. Automation checks for both bullets AND colons:
+
+**✅ Correct:**
+```markdown
+- **Industry:** Banking and securities
+- **Product:** OpenShift AI
+```
+
+**❌ Fails automation:**
+```markdown
+Industry: Banking         (missing bullet)
+- Industry Banking        (missing colon)
+**Industry:** Banking     (missing bullet)
+```
+
+**Requirements:**
+- Must start with bullet (`-` or `*`)
+- Must include colon (`:`) after key
+- Key must be bold (`**Key:**`)
 
 ### Repository requirements
 
@@ -283,14 +331,6 @@ Select ONE from this list:
 - Transportation
 - Utilities
 - Wholesale trade
-
-### Required tag format
-
-Tags must be a bulleted list, with bold key & normal-text value, for example:
-
-- **Industry:** Banking and securities 
-- **Product:** Red Hat AI Enterprise
-
 
 ---
 

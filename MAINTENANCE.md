@@ -13,7 +13,7 @@ The policy applies to all repositories in the AI quickstart ([rh-ai-quickstart](
 - **Preservation over deletion:** Archived quickstarts remain accessible as read-only repositories for reference and learning
 - **Revival is possible:** Archived quickstarts can be restored if a maintainer commits to ongoing support
 - **Transparency:** Maintainers and users are notified at each stage transition
-- **Automation with human review:** Quickstarts are identified through automation, no actions are taken without human review
+- **Automation with human review:** Quickstarts requiring maintenance are identified through automation 
 
 
 ## Overview 
@@ -47,16 +47,44 @@ When a quickstart fails to meet maintenance standards (defined below), it moves 
 
 > **NOTE:** Maintainers are expected to maintain their quickstarts proactively. The triggers below define when the admin team will intervene. Please do not wait for notifications to address issues.
 
-**Review cadence:** The AI quickstart program runs automated checks quarterly. Quickstarts meeting any trigger criteria are reviewed by the admin team before notifications are sent (process may change at any time without warning).
+**Review cadence:** The AI quickstart program runs automated maintenance checks quarterly (or on-demand). Quality evaluation uses AI to assess README structure, repository metadata (LICENSE, description, images), tag format, application type (must have UI, not notebook-only), and business value against [CONTRIBUTING.md](CONTRIBUTING.md) requirements.
 
 The following conditions trigger a notification of maintenance required:
 
 | Trigger | Criteria | Maintainer action | 
 |----|----|----|
 | **Inactivity** | 6+ month old open issues OR Pull Requests | Review for updates, freshness, accuracy, etc. Create plan to publish or deprecate | 
-| **Product versions** | quickstart references End of Life (EOL) Red Hat products or product versions | Update to supported versions | 
+| **Product versions** | Quickstart references unsupported versions of OpenShift (OCP), OpenShift AI (RHOAI), or AI Inference Server (RHAIIS) based on [Red Hat lifecycle data](https://access.redhat.com/support/policy/updates) | Update to supported product versions per lifecycle policy |
+| **Product compatibility** | Incompatible product version combinations (e.g., RHOAI 3.5 and OCP 4.16 are not compatible) | Update to compatible versions per [compatibility matrix](https://access.redhat.com/support/policy/updates/rhoai-sm/lifecycle#dates) |
 | **Does not meet quickstart requirements** | quickstart does not meet requirements defined in [documentation](CONTRIBUTING.md) | Update, deprecate or transfer accordingly | 
 
+### What gets checked for "Does not meet requirements"
+
+When this trigger fires, one or more of these automated checks failed:
+
+**Repository basics:**
+- Has open source LICENSE file (MIT, Apache-2.0, etc.)
+- Has GitHub repository description filled in (Settings → About)
+- Has `docs/images/` folder with images
+
+**README structure:**
+- Title ≤64 characters, starts with action verb
+- Short description ≤160 characters
+- Has required H2 sections: Detailed description, Requirements, Deploy, Tags
+- Has required H3 sections: Architecture, Hardware requirements, Software requirements, Delete
+
+**Tags:**
+- Tags section uses format: `- **Key:** Value` (bullet + colon required)
+- Has valid Industry tag from [official list](CONTRIBUTING.md#industry-tags)
+
+**Application type:**
+- Has deployable application with UI (not notebook-only)
+
+**Product versions:**
+- Uses supported versions of OCP, RHOAI, RHAIIS
+- RHOAI + OCP versions are compatible
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed requirements and examples.
 
 ## Disclaimer 
 
