@@ -26,27 +26,28 @@ This guide contains everything you need to create, contribute, and publish AI qu
 
 ---
 
-## Requirements
+## What Makes a Quickstart? (A.K.A, Quickstart requirements)
 
-Before you build, understand what makes a great quickstart:
-
-### Quickstart Levels
-
-AI quickstarts have **three levels** of maturity, each with increasing requirements:
-
-| Level | Where it lives | Purpose |
-|:---:|---|---|
-| **Level 1: Community** | GitHub organization (`rh-ai-quickstart`) | Discoverable by the community, experimental, work-in-progress |
-| **Level 2: Published** | [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) | Curated, high-quality examples that tell compelling stories |
-| **Level 3: Integrated** | Partner/product/tool solution integration | Regularly tested, simple, robust examples, included with Red Hat products, bundles or partner solutions |
-
-**Start at Level 1**, get feedback, iterate, then advance to higher levels as your quickstart matures.
+| ✅ Requirements | ❌ Common Pitfalls |
+|---|---|
+| Must have a maintenance plan (commonly owned by original developer) | Quickstart is created but unmaintained over time |
+| Must demonstrate a real industry AI use case example | Demonstrates only the technology, not the problem it solves |
+| Must lead with the business problem | Content starts by explaining the technology, burying the use case lead | 
+| Must run on OpenShift or RHEL | N/A | 
+| Must use at least one supported Red Hat AI components or roadmap item | Component used is no longer supported by Red Hat | 
+| Must use approved AI partner components (*for quickstarts built by, or with, Red Hat Partners*) | Vendor is not yet a participating Red Hat partner |
+| Should be easily deployable by regular users with standard permissions | Only deployable by cluster admins |
+| Should include an engaging application with an appealing user interface | Just deploys a component with no UI, or is a collection of notebooks |
+| Should take the user through a "journey" | Application is visually appealing, but usage is unclear |
+| Should use an open weight model deployed locally, or hosted, by default (*user can reconfigure to use proprietary 3rd party models, if desired*) | Exclusively uses proprietary hosted model API |
+| Encouraged to show off Red Hat supporting technologies (E.G. MLflow, Trusty AI, MaaS, Inference, OGX/Praxis, etc.) |  |
+| May use additional open source technologies as necessary and desired | | 
 
 ---
 
-### Level 1: Community (GitHub Organization)
+## Repository requirements
 
-**Required to join the GitHub organization:**
+All quickstart repositories _must_ include: 
 - ✅ **Descriptive repository name** - Make it easy to find and understand the business use case 
 - ✅ **README.md** - Follow the [README structure requirements](#readme-structure-requirements)
 - ✅ **About description** - Add a short description to your GitHub repo (Settings → About)
@@ -54,60 +55,6 @@ AI quickstarts have **three levels** of maturity, each with increasing requireme
 - ✅ **Images folder** - Put all screenshots/diagrams in `docs/images/`
 - ✅ **Status tag** - Mark your quickstart as `work-in-progress` or `completed` (see [tagging guide](#tag-your-quickstart))
 - ✅ **Clear business use case** - Show how open source AI can solve a concrete business problem, not just running a specific technology
-
-**Remember:** You aren't just documenting code, you're documenting the **use case**! This is the starting level to reach in order to get into the github organisation. 
-
----
-
-### Level 2: Published (redhat.com)
-
-**Additional requirements for publication on redhat.com:**
-- ✅ **README.md** - *Must* meet the publication standards (see [README quality standards](PUBLISHING.md#readme-quality-standards))
-- ✅ **Red Hat content standards** - Follow [Publishing Guide](PUBLISHING.md)
-- ✅ **Industry tag (README file)** - Required for catalog discoverability (see [industry tags](#industry-tags))
-- ✅ **Completeness** - Fully tested, documented, and ready for community use
-
-**Ready to publish?** See the [Publishing Guide](PUBLISHING.md).
-
----
-
-### Level 3: Integrated (Partner/Product)
-
-**Additional requirements for vendor certification or product integration:**
-- ✅ **All previous requirements** - Previous level requirements included
-- ✅ **Quality criteria** - Meets all best practices in [table below](#what-makes-a-good-quickstart)
-- ✅ **No *cluster* admin permissions required** - Included in line above, but stating separately: has regular user permissions so anyone can deploy
-- ✅ **Strategic use case** - Must showcase industry workloads Red Hat wishes to pursue
-- ✅ **Strategic technology** - Must showcase technology advantageous for Red Hat
-- ✅ **CI/CD** - Regular, automated testing for regressions and clean deployments required
-- ✅ **CVE testing** - Scan your container images, provide updated images or provide ability to build images, when applicable 
-
-*These requirements are continuously updated to address new opportunities. They may change at any time without notice.*
-
----
-
-### What Makes a Good Quickstart?
-
-| ✅ Best Practices | ❌ Common Pitfalls |
-|---|---|
-| Deployable by regular users with standard permissions | Only deployable by cluster admins |
-| Includes an application with an appealing user interface | Just deploys a component with no UI, or is a collection of notebooks |
-| Demonstrates a real industry use case | Focuses only on technology, not the problem it solves |
-| Uses an open weight model locally or hosted | Uses proprietary hosted model API |
-
-### AI Transparency in User Interfaces
-
-When building quickstarts with AI-powered features, users must clearly understand when and how AI is being used.
-
-| ✅ Best Practices | ❌ Common Pitfalls |
-|---|---|
-| Clearly label AI-generated content in the UI (e.g., badges, icons, or "AI-generated" labels) | AI usage is hidden or only mentioned in documentation |
-| Include visible disclaimers prompting users to verify AI outputs (e.g., "AI-generated. Verify accuracy before use.") | Disclaimers only appear once on first use or are buried in settings |
-| Keep AI usage indicators persistent and visible throughout the user experience | One-time popup that users dismiss and never see again |
-| Position disclaimers near AI-generated content, not just in footer or settings | Generic terms of service without context-specific warnings |
-| Use clear language about AI limitations relevant to the use case (e.g., "May produce incorrect financial data" for finance apps) | Vague warnings like "AI may make mistakes" without specifics |
-
-**Key principle:** Users should always know when they're interacting with AI-generated content, and reminders to verify that content should be persistent, not dismissible.
 
 ### README structure requirements
 
@@ -132,21 +79,13 @@ Your README must follow this structure for consistency and reusability:
 
 📖 **Example:** See [ai-quickstart-template](https://github.com/rh-ai-quickstart/ai-quickstart-template) for a properly formatted README.
 
-### Repository requirements
+### Repo description
 
-Now for some house keeping requirements. :broom:
-
-| Repository requirement | Description | Instructions |
-|:---:|:---:|:---:|
-| Repository description | A one sentence description of your AI quickstart. State "what" it is and "why" it's important. | In repository > Click gear in **About** section > Enter description > Save changes |
-| Quickstart status tag | Maintain a status tag showing publication status of your quickstart (see below for appropriate tags). | In repository > Click gear in **About** section > Enter status tag under **Topics** > Save changes | 
-| LICENSE file | All AI quickstarts must include an appropriate LICENSE file | *Additional guidance soon* | 
-
-*quick screenshot showing where to find the "repository details" section*. 
+quick screenshot showing where to find the "repository details" section*. 
 ![rh-ai-quickstart-about-section.png](docs/images/rh-ai-quickstart-about-section.png)
 
 
-#### AI quickstart status tags 
+### AI quickstart status tags 
 | Status tag | Description & When to use | 
 |:---:|:---:| 
 | helper | Use this when the repository is not a quickstart, but serves another purpose in the organization, i.e. documentation repositories, templates, supporting repositories | 
@@ -154,8 +93,6 @@ Now for some house keeping requirements. :broom:
 | completed | Use this status tag when you consider the quickstart complete, but not yet published |
 | published | Your quickstart is complete and published on docs.redhat.com/learn/ai-quickstarts | 
 | deprecated | Used when the quickstart is old and no longer maintained |
-
-
 
 ---
 
@@ -326,6 +263,79 @@ Red Hat's Demo Platform team can help you add your quickstart as a catalog item 
 **What happens if you don't?** We may pause promotion of your quickstart on redhat.com until issues are resolved.
 
 ---
+
+## Additional information 
+
+### Quickstart Levels
+
+AI quickstarts have **three levels** of maturity, each with increasing requirements:
+
+| Level | Where it lives | Purpose |
+|:---:|---|---|
+| **Level 1: Community** | GitHub organization (`rh-ai-quickstart`) | Discoverable by the community, experimental, work-in-progress |
+| **Level 2: Published** | [AI quickstart catalog](https://docs.redhat.com/en/learn/ai-quickstarts) | Curated, high-quality examples that tell compelling stories |
+| **Level 3: Integrated** | Partner/product/tool solution integration | Regularly tested, simple, robust examples, included with Red Hat products, bundles or partner solutions |
+
+**Start at Level 1**, get feedback, iterate, then advance to higher levels as your quickstart matures.
+
+---
+
+### Level 1: Community (GitHub Organization)
+
+**Required to join the GitHub organization:**
+- ✅ **Descriptive repository name** - Make it easy to find and understand the business use case 
+- ✅ **README.md** - Follow the [README structure requirements](#readme-structure-requirements)
+- ✅ **About description** - Add a short description to your GitHub repo (Settings → About)
+- ✅ **License** - Add an appropriate open source license to your repository
+- ✅ **Images folder** - Put all screenshots/diagrams in `docs/images/`
+- ✅ **Status tag** - Mark your quickstart as `work-in-progress` or `completed` (see [tagging guide](#tag-your-quickstart))
+- ✅ **Clear business use case** - Show how open source AI can solve a concrete business problem, not just running a specific technology
+
+**Remember:** You aren't just documenting code, you're documenting the **use case**! This is the starting level to reach in order to get into the github organisation. 
+
+---
+
+### Level 2: Published (redhat.com)
+
+**Additional requirements for publication on redhat.com:**
+- ✅ **README.md** - *Must* meet the publication standards (see [README quality standards](PUBLISHING.md#readme-quality-standards))
+- ✅ **Red Hat content standards** - Follow [Publishing Guide](PUBLISHING.md)
+- ✅ **Industry tag (README file)** - Required for catalog discoverability (see [industry tags](#industry-tags))
+- ✅ **Completeness** - Fully tested, documented, and ready for community use
+
+**Ready to publish?** See the [Publishing Guide](PUBLISHING.md).
+
+---
+
+### Level 3: Integrated (Partner/Product)
+
+**Additional requirements for vendor certification or product integration:**
+- ✅ **All previous requirements** - Previous level requirements included
+- ✅ **Quality criteria** - Meets all best practices in [table below](#what-makes-a-good-quickstart)
+- ✅ **No *cluster* admin permissions required** - Included in line above, but stating separately: has regular user permissions so anyone can deploy
+- ✅ **Strategic use case** - Must showcase industry workloads Red Hat wishes to pursue
+- ✅ **Strategic technology** - Must showcase technology advantageous for Red Hat
+- ✅ **CI/CD** - Regular, automated testing for regressions and clean deployments required
+- ✅ **CVE testing** - Scan your container images, provide updated images or provide ability to build images, when applicable 
+
+*These requirements are continuously updated to address new opportunities. They may change at any time without notice.*
+
+---
+
+### AI Transparency in User Interfaces
+
+When building quickstarts with AI-powered features, users must clearly understand when and how AI is being used.
+
+| ✅ Best Practices | ❌ Common Pitfalls |
+|---|---|
+| Clearly label AI-generated content in the UI (e.g., badges, icons, or "AI-generated" labels) | AI usage is hidden or only mentioned in documentation |
+| Include visible disclaimers prompting users to verify AI outputs (e.g., "AI-generated. Verify accuracy before use.") | Disclaimers only appear once on first use or are buried in settings |
+| Keep AI usage indicators persistent and visible throughout the user experience | One-time popup that users dismiss and never see again |
+| Position disclaimers near AI-generated content, not just in footer or settings | Generic terms of service without context-specific warnings |
+| Use clear language about AI limitations relevant to the use case (e.g., "May produce incorrect financial data" for finance apps) | Vague warnings like "AI may make mistakes" without specifics |
+
+**Key principle:** Users should always know when they're interacting with AI-generated content, and reminders to verify that content should be persistent, not dismissible.
+
 
 ##  Need help?
 
